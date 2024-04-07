@@ -1,7 +1,39 @@
 @charset "utf-8";
 
-body{
+
+:root{
+
+--cor01:#22D4FD;
+
+
 
 
 
 }
+
+
+
+
+
+body{
+
+background-color: black;
+color: white;
+
+}
+
+strong{
+color: var(--cor01);
+
+}
+
+img{
+    width: 467.71px;
+    height: 532px;
+    top: 253px;
+    left: 1032px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    border-color: var(--cor01);
+    }
