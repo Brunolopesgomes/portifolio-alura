@@ -15,31 +15,39 @@ padding: 0px;
 
 
 body{
-font-family: Arial, Helvetica, sans-serif;
+
 background-color: black;
 color: white;
 
+height: 100vh;
+box-sizing: border-box;
+/*isso faz com que o hmtl ocupe todo o espaço da tela, e que nenhum item filho saia da div pai*/
 
 }
 
-main{
+.apresentacao{
+  margin: 7%;
+ display: flex;
+ align-items: center;
+justify-content:space-between;
 
-max-width: 700px;
-min-width: 240px;
-margin: auto;
+}
+
+.apresentacao-__conteudo{
+width: 615px;
+}
+
+.apresentacao-__conteudo__titulo{
+font-size: 36px;
+}
+
+.apresentacao-__conteudo__titulo__texto{
+  font-size: 24px;
+
+
 }
 
 
-div{
-    
-    height: 280px;
-    width: 300px;
-    border: 1px solid var(--cor01);
-    padding: 10px;
-   
-    box-shadow: 5px 5px 9px var(--cor01);
-  margin:right;
-    }
 
 
 strong{
@@ -48,16 +56,14 @@ color: var(--cor01);
 }
 
  span{
-        color: #22D4FD;
+        color:rgb(16, 228, 16);
+        font-size: large;
        
 }
 
 
 button{
-padding: 10px;
-width: 100px;
-background-color: var(--cor01);
-border-radius: 8px;
+
 }
 
 button > a{
@@ -67,12 +73,7 @@ color: black;
 
 }
     
-img{
-   margin: auto;
-  
-    
-    
-}
+
     
 
 
