@@ -11,8 +11,8 @@ padding: 0px;
 :root{
 
 --cor01:#22D4FD;
-
-
+--fonte01:"Krona One", sans-serif;
+--fonte02:"Montserrat", sans-serif;
 }
 
 
@@ -21,14 +21,36 @@ body{
 background-color: black;
 color: white;
 
-height: 100vh;
+/*height: 100vh;*/
 box-sizing: border-box;
 /*isso faz com que o hmtl ocupe todo o espaço da tela, e que nenhum item filho saia da div pai*/
 
 }
+.cabecalho{
+
+display: flex;
+padding-left: 8%;
+padding-top: 3%;
+gap: 80px;
+
+
+}
+
+.cabecalho__menu__link{
+font-family: var(--fonte02);
+font-size: 24px;
+font-weight: 600;
+color: var(--cor01);
+text-decoration: none;
+
+
+}
+
+
+
 
 .apresentacao{
-  margin: 8%;
+  padding: 8%;
  display: flex;
  align-items: center;
 justify-content:space-between;
@@ -72,24 +94,62 @@ color: var(--cor01);
 .apresentacao__links{
 display: flex;
 justify-content: space-between;
+flex-direction: column;
+align-items: center;
+gap: 40px;
 
 }
+
+
+.apresentacao__links__subtitulo{
+
+font-family:"Montserrat", sans-serif;
+
+
+
+
+}
+
 
 .apresentacao__links__link{
 
-background-color: #22D4FD;
-width: 280px;
-text-align: center;
-padding: 21px 0px;
-border-radius: 16px;
-font-size: 24px;
 text-decoration: none;
-color: black;
-font-family:"Montserrat", sans-serif;
+background-color:black;
+width: 370px;
+text-align: center;
+border-radius: 8px;
+padding: 25px 0px;
+font-family:"Montserrat", sans-serif ;
+font-size: large;
 font-weight: 600;
-margin-top: 15px;
+border: 2px solid #22D4FD;
+color:white;
+display: flex;
+justify-content: center;
+gap: 20px;
+
+
 }
-    
+
+.apresentacao__links__link:hover{
+
+background-color: rgb(25, 25, 25);
+cursor: pointer;
+
+}
+
+
+footer{
+  height: 50px;
+  width: 100%;
+  background-color:var(--cor01);
+  display: flex;
+  justify-content: center;
+  font-family: var(--fonte01);
+  padding-top: 24px;
+  color: black;
+  text-align: center;
+} 
 
     
 
