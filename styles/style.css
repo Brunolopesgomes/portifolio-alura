@@ -9,17 +9,21 @@ padding: 0px;
 }
 
 :root{
+  --cor01:#2C3639;
+    --cor02:#A27B5C ;
+    --cor03:#DCD7C9;
+    --cor04:#3F4E4F;
+    --cor-hover:rgb(25, 25, 25);
+    --fonte01:"Krona One", sans-serif;
+    --fonte02:"Montserrat", sans-serif;
 
---cor01:#22D4FD;
---cor02: rgba(16, 228, 16, 0.993);
---fonte01:"Krona One", sans-serif;
---fonte02:"Montserrat", sans-serif;
+
 }
 
 
 body{
 
-background-color: black;
+background-color: var(--cor01);
 color: white;
 min-width: 140px;
 /*height: 100vh;*/
@@ -41,7 +45,7 @@ min-width: 200px;
 font-family: var(--fonte02);
 font-size: 24px;
 font-weight: 600;
-color: var(--cor01);
+color: var(--cor02);
 text-decoration: none;
 
 
@@ -75,6 +79,7 @@ font-family: "Krona One", sans-serif ;
 .apresentacao__conteudo__texto{
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
+  color: var(--cor03);
 
 
 }
@@ -83,13 +88,12 @@ font-family: "Krona One", sans-serif ;
 
 
 strong{
-color: var(--cor01);
+color: var(--cor02);
 
 }
 
  span{
-        color:rgb(16, 228, 16);
-       
+        color: var(--cor03);
       
        
 }
@@ -117,7 +121,7 @@ font-family:"Montserrat", sans-serif;
 .apresentacao__links__link{
 
 text-decoration: none;
-background-color:black;
+background-color:var(--cor01);
 width: 370px;
 text-align: center;
 border-radius: 8px;
@@ -125,7 +129,7 @@ padding: 25px 0px;
 font-family:"Montserrat", sans-serif ;
 font-size: large;
 font-weight: 600;
-border: 2px solid #22D4FD;
+border: 2px solid var(--cor02);
 color:white;
 display: flex;
 justify-content: center;
@@ -138,7 +142,7 @@ gap: 20px;
 
 .apresentacao__links__link:hover{
 
-background-color: rgb(25, 25, 25);
+background-color: var(--cor04);
 cursor: pointer;
 
 }
@@ -146,7 +150,7 @@ cursor: pointer;
 
 .foto{
 border-radius: 16px;
-border: 3px solid var(--cor02);
+border: 3px solid var(--cor04);
 
 /*
 box-shadow: 9px -9px 9px var(--cor02);*/
@@ -155,15 +159,22 @@ box-shadow: 9px -9px 9px var(--cor02);*/
 footer{
   height: 50px;
   width: 100%;
-  background-color:var(--cor01);
+  background-color:var(--cor02);
   display: flex;
   justify-content: center;
   font-family: var(--fonte01);
   padding-top: 24px;
   color: black;
   text-align: center;
+  
 } 
-
+.link-footer{
+color: black;
+text-decoration: none;
+}
     
+.link-footer:hover{
+color: var(--cor04) ;
 
+}
 
