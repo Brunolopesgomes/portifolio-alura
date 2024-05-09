@@ -106,6 +106,35 @@ font-size: 14px;
   font-family: "Montserrat", sans-serif;
 }
 
+.links{
+text-decoration:none;
+color:rgb(66, 66, 202);
+font-weight:600;
+
+
+}
+
+.links:hover{
+
+text-decoration: underline;
+cursor: pointer;
+
+}
+
+.link__alura{
+  text-decoration:none;
+  color:#2BDEFD;
+  font-weight:600;
+
+}
+.link__alura:hover{
+
+  text-decoration: underline;
+  cursor: pointer;
+  
+
+}
+
 .foto{
 
 border-radius: 15px;
