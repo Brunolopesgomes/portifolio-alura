@@ -50,7 +50,7 @@ gap: 80px;
 text-decoration: none;
 font-weight: 600;
 font-family: var(--fonte02);
-font-size: 24px;
+font-size: 1.5rem;
 color: var(--cor02);  
 
     
@@ -58,7 +58,7 @@ color: var(--cor02);
 
 .cabecalho__menu__link__sobre-mim{
 font-family: var(--fonte02);
-font-size: 24px;
+font-size:1.5rem;
 text-decoration: none;
 font-weight: 600;
 color: var(--cor02);
@@ -100,9 +100,9 @@ color: var(--cor02);
 }
 
 .apresentacao__conteudo__texto{
-width: 400px;
+width:50%;
 color: var(--cor03);
-font-size: 14px;
+font-size:0.87rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -139,7 +139,7 @@ cursor: pointer;
 
 border-radius: 15px;
 box-shadow: 3px 3px 300px var(--cor02);
-
+width: 50%;
 }
 
 

@@ -25,7 +25,7 @@ body{
 
 background-color: var(--cor01);
 color: white;
-min-width: 140px;
+
 /*height: 100vh;*/
 box-sizing: border-box;
 /*isso faz com que o hmtl ocupe todo o espaço da tela, e que nenhum item filho saia da div pai*/
@@ -37,13 +37,13 @@ display: flex;
 padding-left: 8%;
 padding-top: 3%;
 gap: 80px;
-min-width: 200px;
+
 
 }
 
 .cabecalho__menu__link{
 font-family: var(--fonte02);
-font-size: 24px;
+font-size: 1.5rem;
 font-weight: 600;
 color: var(--cor02);
 text-decoration: none;
@@ -64,7 +64,7 @@ justify-content:space-between;
 }
 
 .apresentacao__conteudo{
-width: 615px;
+width: 50%;
 display: flex;
 flex-direction: column;
 gap: 40px;
@@ -72,12 +72,12 @@ gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
-font-size: 36px;
+font-size:2.5rem;
 font-family: "Krona One", sans-serif ;
 }
 
 .apresentacao__conteudo__texto{
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
   color: var(--cor03);
 
@@ -118,11 +118,11 @@ font-family:"Montserrat", sans-serif;
 }
 
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
 
 text-decoration: none;
 background-color:var(--cor01);
-width: 370px;
+width: 50%;
 text-align: center;
 border-radius: 8px;
 padding: 25px 0px;
@@ -147,14 +147,16 @@ cursor: pointer;
 
 }
 
-
-.foto{
-border-radius: 16px;
-border: 3px solid var(--cor04);
-
+.apresentacao__imagem{
+  border-radius: 16px;
+  border: 3px solid var(--cor04);
 /*
 box-shadow: 9px -9px 9px var(--cor02);*/
+width: 50%;
 }
+
+
+
 
 footer{
   height: 50px;
