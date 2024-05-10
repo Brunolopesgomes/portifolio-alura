@@ -213,14 +213,14 @@ padding: 5%;
 .apresentacao__conteudo__titulo{
 font-size:20px ;
 width:200px ;
-
+padding-left:20%;
 }
 
 
 
 
 .apresentacao__imagem{
-width:70% ;
+width:60% ;
 justify-content: center;
 align-items: center;
 }
