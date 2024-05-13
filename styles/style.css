@@ -186,12 +186,15 @@ color: var(--cor04) ;
 
 }
 
+/* -------------------------------------------------------------*/
+
 @media (max-width:900px) {
 
 
   .cabecalho{
 gap:50px ;
 padding: 8%;
+padding-left: 16%;
 
 
 
@@ -211,13 +214,29 @@ padding: 5%;
 
   }
 .apresentacao__conteudo__titulo{
-font-size:20px ;
-width:200px ;
+font-size:1.5rem ;
+width:14.37rem ;
+margin-left: -2.5rem;
+}
+.apresentacao__conteudo__texto{
+width:14.37rem ;
+margin-left: -2.5rem;
+}
+
+.apresentacao__links__subtitulo{
+width:12.5rem ;
+
 
 }
 
 
 
+
+.apresentacao__links__navegacao{
+width:12.5rem ;
+
+
+}
 
 .apresentacao__imagem{
 width:70% ;
