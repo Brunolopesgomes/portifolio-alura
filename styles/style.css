@@ -194,18 +194,9 @@ color: var(--cor04) ;
   .cabecalho{
 gap:50px ;
 padding: 8%;
-padding-left: 16%;
-
-
+width: auto;
 
   }
-
-.cabecalho__menu{
-justify-content: center;
-align-items: center;
-
-}
-
 
 
   .apresentacao{
@@ -240,14 +231,6 @@ width:12.5rem ;
 
 }
 
-
-
-
-.apresentacao__links__navegacao{
-
-
-
-}
 
 .apresentacao__imagem{
 width:60% ;
