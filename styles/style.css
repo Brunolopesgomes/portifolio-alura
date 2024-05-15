@@ -188,7 +188,7 @@ color: var(--cor04) ;
 
 /* -------------------------------------------------------------*/
 
-@media (max-width:900px) {
+@media (max-width:1200px) {
 
 
   .cabecalho{
@@ -211,16 +211,27 @@ align-items: center;
   .apresentacao{
   flex-direction:column-reverse;
 padding: 5%;
+ }
 
-  }
+ .apresentacao__conteudo{
+
+width: auto;
+
+
+ }
+ 
+
+
+
+
 .apresentacao__conteudo__titulo{
 font-size:1.5rem ;
-width:14.37rem ;
-margin-left: -2.5rem;
+padding-left: 2%;
+
 }
 .apresentacao__conteudo__texto{
-width:14.37rem ;
-margin-left: -2.5rem;
+padding-left: 2%;
+
 }
 
 .apresentacao__links__subtitulo{
@@ -233,7 +244,7 @@ width:12.5rem ;
 
 
 .apresentacao__links__navegacao{
-width:12.5rem ;
+
 
 
 }
