@@ -138,7 +138,7 @@ cursor: pointer;
 .foto{
 
 border-radius: 15px;
-box-shadow: 3px 3px 300px var(--cor02);
+box-shadow: 3px 3px 400px var(--cor02);
 width: 50%;
 }
 
@@ -155,4 +155,49 @@ color: black;
 
 
 
+}
+
+@media(max-width:1200px){
+
+
+.cabecalho{
+width:auto ;
+gap:25px ;
+
+}
+
+.cabecalho__menu{
+
+
+
+}
+
+
+.apresentacao{
+flex-direction: column-reverse;
+padding: 9%;
+
+}
+
+.apresentacao__conteudo__titulo{
+padding-top:8% ;
+
+}
+
+.apresentacao__conteudo__texto{
+width:auto ;
+
+
+}
+
+
+
+
+.foto{
+width:60% ;
+
+}
+
+
+  
 }
