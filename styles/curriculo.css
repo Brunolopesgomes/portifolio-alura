@@ -17,10 +17,11 @@ margin: 0px;
       --cor02:#A27B5C ;
       --cor03:#DCD7C9;
       --cor04:#3F4E4F;
+      --cor05:#22d4fd;
       --cor-hover:rgb(25, 25, 25);
       --fonte01:"Krona One", sans-serif;
       --fonte02:"Montserrat", sans-serif;
-  
+ 
   
   }
   
@@ -28,27 +29,75 @@ margin: 0px;
 
 
 body{
-color: black;
+background-color:black;
 
 
 
 }
 
-.cabecalho__menu{
-background-color:var(--cor04) ;
+.cabecalho{
 display: flex;
+width:auto ;
 align-items: center;
-padding-bottom: 50px;
+padding:3%;
+padding-left:5% ;
+background-color:var(--cor01);
+gap: 60px;
 
 }
+
+.cabecalho__menu{}
 
 
 .cabecalho__menu__link{
 text-decoration: none;
+font-family: var(--fonte02);
+font-size:1.5rem;
+color: var(--cor02);
+font-weight: 600;
+}
+
+
+.apresentacao{
+display: flex;
+flex-direction:column;
+padding: 5%;
+padding-left: 8%;
+
 
 }
 
 
-main{}
+.apresentacao__conteudo{
+display: flex;
+gap: 160px;
+padding-bottom: 13%;
+align-items: center;
+}
+
+.apresentacao__titulo{
+font-family: var(--fonte01);
+color: var(--cor05);
+font-weight: normal;
+padding-bottom: 4%;
+
+}
+
+.apresentacao__conteudo__texto{
+color: white;
+width:300px ;
+
+
+}
+
+.foto{
+width:40%;
+border: 3px solid var(--cor05) ;
+border-radius: 15px;
+
+
+}
+
+
 
 footer{}

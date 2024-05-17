@@ -56,16 +56,6 @@ color: var(--cor02);
     
 }
 
-.cabecalho__menu__link__sobre-mim{
-font-family: var(--fonte02);
-font-size:1.5rem;
-text-decoration: none;
-font-weight: 600;
-color: var(--cor02);
-
-
-}
-
 
 
 .apresentacao{
