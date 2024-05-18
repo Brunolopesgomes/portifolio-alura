@@ -147,12 +147,14 @@ color: black;
 
 }
 
+/*------------------------------------------------------------------------------------*/
+
 @media(max-width:1200px){
 
 
 .cabecalho{
 width:auto ;
-gap:25px ;
+gap:20px ;
 padding-top: 8%;
 }
 
