@@ -96,11 +96,17 @@ font-size:0.87rem;
   font-family: "Montserrat", sans-serif;
 }
 
+abbr{
+text-decoration: none;
+
+}
+
+
 .links{
 text-decoration:none;
-color:rgb(66, 66, 202);
+color:rgb(48, 48, 250);
 font-weight:600;
-
+text-shadow:1px 1px 3px black ;
 
 }
 
@@ -115,7 +121,7 @@ cursor: pointer;
   text-decoration:none;
   color:#2BDEFD;
   font-weight:600;
-
+  
 }
 .link__alura:hover{
 
