@@ -94,6 +94,9 @@ width:50%;
 color: var(--cor03);
 font-size:0.87rem;
   font-family: "Montserrat", sans-serif;
+text-align: justify;
+text-indent: 5%;
+
 }
 
 abbr{

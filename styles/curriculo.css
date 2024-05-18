@@ -92,10 +92,9 @@ width:300px ;
 
 .foto{
 width:40%;
-border: 3px solid var(--cor05) ;
 border-radius: 15px;
-
-
+box-shadow: 1px 1px 200px var(--cor05);
+border: 3px solid var(--cor05);
 }
 
 
