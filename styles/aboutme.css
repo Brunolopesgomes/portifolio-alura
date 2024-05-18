@@ -30,7 +30,7 @@ body{
     background-color:var(--cor01);
     color: white;
   height: 100vh;
-
+box-sizing: border-box;
 
 }
 
@@ -153,7 +153,7 @@ color: black;
 .cabecalho{
 width:auto ;
 gap:25px ;
-
+padding-top: 8%;
 }
 
 .cabecalho__menu{
@@ -188,6 +188,9 @@ width:60% ;
 
 }
 
+footer{
+width: auto;
 
+}
   
 }
