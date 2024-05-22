@@ -14,7 +14,7 @@ margin: 0px;
 
 :root{
     --cor01:#01080E;
-      --cor02:#2CFDBE ;
+      --cor02:#0a336168;
       --cor03:#D7F9FF;
       --cor04:#4A8B91;
       --cor05:#22d4fd;
@@ -150,6 +150,23 @@ width:30%;
 border-radius: 5px;
 box-shadow: 1px 1px 25px var(--cor05);
 }
+
+
+.rodape{
+  display: flex;
+height:50px;
+justify-content: center;
+align-items: center;
+width: auto;
+font-family: var(--fonte01);
+font-size: 1rem;
+background-image:linear-gradient(to top, black,#0a336168);
+color: var(--cor05);
+
+
+}
+
+
 
 /*-------------------------------------------------------------------------------------------*/
 @media (max-width:1200px) {
