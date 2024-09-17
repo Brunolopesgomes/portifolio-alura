@@ -7,6 +7,10 @@
     <title>Sobre Mim</title>
 
 <link rel="stylesheet" href="styles/aboutme.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
 </head>
 <body>
@@ -50,8 +54,54 @@
     
                 <img class="foto"src="imagens/eu-de-branco400.png" alt="garoto de branco">
             
-           
+                <!-- Slider main container -->
+<div class="swiper">
+    
+    <h3>Meus projetos</h3>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="imagens/foto-alura-plus.png" alt=""></div>
+      <div class="swiper-slide"><img src="imagens/foto-alura-books.png" alt=""></div>
+      <div class="swiper-slide"><img src="imagens/foto-cordel.png" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
+            </section>
+          <script>
+            const swiper = new Swiper('.swiper', {
+                
+                slidesPerView: 2,
+                spaceBetween: 20,
+                
+                pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+ 
+});
+
+
+          </script> 
           
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </main>
 
 

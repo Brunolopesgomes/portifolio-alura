@@ -64,11 +64,11 @@ color: #2BDEFD;
 
 
 .apresentacao{
-padding: 8%;
+padding: 8% ;
 display: flex;
-align-items: center;
+align-items: flex-start;
 
-justify-content: space-between;
+
 
 
 
@@ -79,8 +79,7 @@ justify-content: space-between;
 .apresentacao__conteudo{
 display: flex;
 flex-direction:column;
-gap: 40px;
-
+gap: 30px;
 
 
 }
@@ -95,12 +94,13 @@ color: var(--cor02);
 }
 
 .apresentacao__conteudo__texto{
-width:50%;
+width:80%;
 color: var(--cor03);
-font-size:0.87rem;
+font-size:20px;
   font-family: "Montserrat", sans-serif;
 text-align: justify;
 text-indent: 5%;
+line-height: 30px;
 
 }
 
@@ -144,6 +144,11 @@ cursor: pointer;
 border-radius: 15px;
 box-shadow: 3px 3px 400px var(--cor02);
 width: 50%;
+}
+.swiper-slide img{
+width: 50%;
+
+
 }
 
 
