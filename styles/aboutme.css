@@ -8,6 +8,7 @@
     --cor01:#2C3639;
     --cor02:#A27B5C ;
     --cor03:#DCD7C9;
+    --cor04:#3F4E4F;
     --cor-hover:rgb(25, 25, 25);
     --fonte01:"Krona One", sans-serif;
     --fonte02:"Montserrat", sans-serif;
@@ -85,6 +86,9 @@ gap: 30px;
 }
 .apresentacao__conteudo02{
 width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
 
 }
 
@@ -110,14 +114,71 @@ line-height: 30px;
 
 }
 
+
+.foto{
+  width:80%;
+  border-radius: 15px;
+  border: 3px solid var(--cor04);
+  margin-bottom: 3em;
+  
+  
+  }
+
+
+
 .swiper{
 width: 100%;
+padding: 2.6em;
 
 }
 
-.swiper-slide>img{
+.titulo__swiper{
+  color: white;
+  font-family: var(--fonte01);
+  background-color: var(--cor02);
+  padding: 0.5em;
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 200;
+  
+  
+  }
+  
+
+.swiper-slide{
 width: 100%;
+padding-left:0.5em;
+
 }
+
+.swiper-slide > img{
+width: 76%;
+border-radius: 10px;
+border: 3px solid var(--cor04);
+
+}
+
+
+.swiper-button-prev,.swiper-button-next{
+background-color: var(--cor02);
+border-radius: 50%;
+width: 30px;
+height: 30px;
+color: transparent;
+
+}
+
+
+.swiper-button-prev{
+background-image: url(/portifolio-alura/imagens/chevron_left_black_24dp\ 1.png);
+background-position: center;
+
+}
+.swiper-button-next{
+  background-image: url(/portifolio-alura/imagens/chevron_right_black_24dp\ 1.png);
+  
+background-position: center;
+  }
 
 
 
@@ -156,12 +217,6 @@ cursor: pointer;
 
 }
 
-.foto{
-width:80%;
-border-radius: 15px;
-box-shadow: 3px 3px 400px var(--cor02);
-
-}
 
 
 
@@ -181,7 +236,7 @@ color: black;
 
 /*------------------------------------------------------------------------------------*/
 
-@media(max-width:1200px){
+@media(max-width:1024px){
 
 
 .cabecalho{
