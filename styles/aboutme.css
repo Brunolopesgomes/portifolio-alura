@@ -244,38 +244,9 @@ color: black;
 
 /*------------------------------------------------------------------------------------*/
 
-@media  screen and (max-width:1024px) {
 
 
-.apresentacao__conteudo{
-
-
-}
-
-.apresentacao__conteudo__texto{
-  width: 80%;
-
-  
-
-
-}
-
- .swiper{
-  width: 90%;
-  
-}
-.titulo__swiper{
-margin-left: 2.5em;
-
-
-}
-
-
-  
-}
-
-
-@media(max-width:780px){
+@media(max-width:1024px){
 
 
 .cabecalho{
