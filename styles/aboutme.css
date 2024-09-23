@@ -284,15 +284,10 @@ gap:20px ;
 padding-top: 8%;
 }
 
-.cabecalho__menu{
-
-
-
-}
-
 
 .apresentacao{
-flex-direction: column-reverse;
+flex-direction: column;
+align-items: center;
 padding: 9%;
 
 }
@@ -307,18 +302,47 @@ width:auto ;
 
 
 }
+.apresentacao__conteudo02{
+  margin-top: 2em;
+
+}
+.swiper{
+  margin-left: -130px;
+
+  width:500px;
+}
+.swiper-slide{
+  padding-left:0px ;
+  
+
+}
+.swiper-slide>img{
+width:90% ;
+
+}
+.swiper-button-next{
 
 
+}
+
+
+.titulo__swiper{
+margin-left: 0px;
+
+}
 
 
 .foto{
-width:60% ;
+  display: none;
 
 }
 
 footer{
-width: auto;
+width:100%;
 
 }
   
+
+
+
 }
