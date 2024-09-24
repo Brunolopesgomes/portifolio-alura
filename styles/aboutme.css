@@ -245,6 +245,13 @@ color: black;
 
 @media(max-width:1024px){
 
+.apresentacao{
+padding:8% 0%;
+width: 100%;
+
+}
+
+
 
 .apresentacao__conteudo02{
 margin-bottom: 10%;
@@ -259,9 +266,10 @@ margin: 10% 0%;
   
 
 .swiper{
-  width:100%;
+  width:150%;
   padding-top: 10%;
   padding-bottom: 10%;
+  margin-left: -25%;
   }
 
 
