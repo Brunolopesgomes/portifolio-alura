@@ -56,7 +56,7 @@
               
          
     
-                    <img class="foto"src="imagens/eu-de-branco400.png" alt="garoto de branco">
+                    
         
 
                     <h2 class="titulo__swiper" >Meus Projetos</h2>
@@ -119,13 +119,21 @@
  <script>
    const swiper = new Swiper('.swiper', {
    
-    slidesPerView: 3,
-    spaceBetween:10,
+    slidesPerView:3,
+    spaceBetween:0,
     
     navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-    }
+        },
+
+        pagination : {
+    el: '.swiper-pagination',
+    type: 'bullets',
+      },
+
+
+
    });
    
  </script>
