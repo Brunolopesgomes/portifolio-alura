@@ -246,70 +246,24 @@ color: black;
 @media(max-width:1024px){
 
 
-.cabecalho{
-width:auto ;
-gap:20px ;
-padding-top: 8%;
-}
-
-
-.apresentacao{
-flex-direction: column;
-align-items: center;
-padding: 9%;
-
-}
-
-.apresentacao__conteudo__titulo{
-padding-top:8% ;
-
-}
-
-.apresentacao__conteudo__texto{
-width:auto ;
-
-
-}
 .apresentacao__conteudo02{
-  margin-top: 2em;
-
-}
-.swiper{
-  margin-left: -130px;
-
-  width:500px;
-}
-.swiper-slide{
-  padding-left:0px ;
-  
-
-}
-.swiper-slide>img{
-width:90% ;
-
-}
-.swiper-button-next{
+margin-bottom: 10%;
 
 
 }
-
 
 .titulo__swiper{
-margin-left: 0px;
-
-}
-
-
-.foto{
-  display: none;
-
-}
-
-footer{
-width:100%;
+margin: 10% 0%;
 
 }
   
+
+.swiper{
+  width:100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  }
+
 
 
 
