@@ -36,12 +36,10 @@ box-sizing: border-box;
 }
 
 .cabecalho{
-
-display: flex;
-padding-top: 5%;
-padding-left: 5%;
-gap: 60px;
-
+  display: flex;
+  padding-top: 8%;
+  padding-left: 8%;
+  gap: 70px;
 
 }
 
@@ -110,10 +108,6 @@ text-indent: 5%;
 line-height: 30px;
 
 }
-
-
-
-
 
 
 .swiper{
@@ -267,12 +261,48 @@ margin: 10% 0%;
 
 .swiper{
   width:150%;
-  padding-top: 10%;
+  padding-top: 20%;
   padding-bottom: 10%;
   margin-left: -25%;
   }
 
 
+
+
+}
+
+@media screen and (max-width:430px){
+
+.cabecalho{
+width: 50%;
+padding-left: 18%;
+margin-bottom: 8%;
+}
+
+.apresentacao{
+  width: 130%;
+  margin-left: -14%;
+
+  
+
+}
+
+.titulo__swiper{
+padding:5%;
+width: 80%;
+font-size: 23px;
+text-align: center;
+  
+}
+.swiper{
+width: 150%;
+margin-left: -29%;
+padding-top:25% ;
+
+}
+.swiper-button-prev,.swiper-button-next{
+  display: none;
+}
 
 
 }
