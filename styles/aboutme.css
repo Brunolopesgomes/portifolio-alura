@@ -271,17 +271,15 @@ margin: 10% 0%;
 
 }
 
-@media screen and (max-width:430px){
+@media screen and (max-width:425px){
 
 .cabecalho{
-width: 50%;
 padding-left: 18%;
 margin-bottom: 8%;
 }
 
 .apresentacao{
-  width: 130%;
-  margin-left: -14%;
+  width: 100%;
 
   
 
