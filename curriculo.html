@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
-
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 <link rel="stylesheet" href="styles/curriculo.css">
 
 </head>
@@ -65,87 +68,37 @@
 
         </section>
 
-        <h1 class="apresentacao__titulo">
-           
-            Certificados / Formações
-        
-        </h1>
-
-        <section class="apresentacao__certificados">
+        <section class="formacoes" >
+            <h2 class="formacao__titulo">
             
-
-           
-                <img class="foto"  src="imagens/foto-certificado.png" alt="imagem do certificado">
+            Formação Front-End
             
-          
-
-
-           <p class="apresentacao__certificados__texto">Aqui foi o meu inicio em <i>HTML</i>, onde aprendi sobre a criação de uma <code>Estrutura</code>, criação de <code>arquivos</code>, <code>Tags</code> e <code>Semântica</code>.</p>
-
-
-
-
+            </h2>
+            <!-- Slider main container -->
+            <h3 class="titulo__swiper">HTML CSS</h3>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="imagens/foto-certificado.png" alt="imagem certificado"></div>
+                  <div class="swiper-slide"><img src="imagens/foto-certificado02.png" alt="imagem certificado"></div>
+                  <div class="swiper-slide"><img src="imagens/foto-certificado03.png" alt="imagem certificado"></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
         </section>
-
-        <section class="apresentacao__certificados">
-            
-
-           
-            <img class="foto"  src="imagens/foto-certificado04.png" alt="imagem do certificado">
-        
-      
-
-
-       <p class="apresentacao__certificados__texto">Criação de <i>cabecalho</i>, <i>navegação de menu</i>, Criação do <i>rodapé</i> e<code> variaveis</code> em <code>CSS</code>.</p>
-
-
        
-
-    </section>
-
-    <section class="apresentacao__certificados">
-            
-
-           
-        <img class="foto"  src="imagens/foto-certificado03.png" alt="imagem do certificado">
-    
-  
-
-
-   <p class="apresentacao__certificados__texto">Criação de <i>Classes</i> pra <code>CSS</code>, <i>Posicionamento</i> de <i>conteudo</i> e <code>flex-box</code>.</p>
-
-
-   
-
-</section>
-
-<section class="apresentacao__certificados">
-            
-
-           
-    <img class="foto"  src="imagens/foto-certificado02.png" alt="imagem do certificado">
-
-
-
-
-<p class="apresentacao__certificados__texto">Aqui eu aprendi sobre a <i>importancia</i> da <q>Responsividade</q> para <ins>telas </ins>com <ins>larguras</ins> de <ins>tamanhos</ins> <i>diferentes</i>, além de <i>publicação</i> de <code>projetos</code> no <code>Github</code>.</p>
-
-
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
+
     <footer class="rodape">
      <div class="rodape__conteudo" ></div>
      <p class="rodape__conteudo__texto" > Desenvolvido Por Bruno Lopes</p>
@@ -154,6 +107,22 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        slidesPerView: 2,   
+        spaceBetween:0,
 
+        navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+
+
+
+    </script>
 </body>
 </html>

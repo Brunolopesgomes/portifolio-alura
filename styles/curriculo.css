@@ -19,6 +19,8 @@ margin: 0px;
       --cor04:#4A8B91;
       --cor05:#22d4fd;
       --cor06:#5d39df;
+      --cor07:rgb(4, 237, 4);
+      --cor08:rgb(255, 106, 0);
 
       --cor-hover:rgb(25, 25, 25);
       --fonte01:"Krona One", sans-serif;
@@ -109,49 +111,67 @@ color: rgb(4, 237, 4);
 
 
 
-.apresentacao__certificados{
+.formacoes{
 display: flex;
-gap: 160px;
-padding-bottom: 20%;
+flex-direction: column;
 align-items: center;
 
 
 }
 
-.apresentacao__titulo{
+.formacao__titulo{
 font-family: var(--fonte01);
 color: var(--cor05);
 font-weight: normal;
+font-size: 30px;
 padding: 3%;
 margin-bottom: 10%;
-
+text-align: center;
 border-radius: 15px;
-width:auto ;
+width:100% ;
 background-image:linear-gradient(to left, black,#22d5fd29);
 }
 
-.apresentacao__certificados__texto{
-color: white;
+.swiper{
+width: 100%;
+}
+.titulo__swiper{
 
+  
+background-image:linear-gradient(to right,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df);
 font-family: var(--fonte02);
-font-weight:normal;
-font-size: 1.5rem;
-text-align: justify;
-color: var(--cor03);
-border: 1px solid #22d4fd;
-padding: 1.5rem;
-border-radius:15px ;
-
-background-image:linear-gradient(to bottom, rgb(27, 26, 26),#22d5fd28);
+text-align: center;
+font-size: 30px;
+line-height: 20px;
+margin-bottom: 10%;
+border: 2px solid;
+padding: 5%;
+width: 13%;
+-webkit-background-clip: text;
+-webkit-text-fill-color:transparent;
+border-image:linear-gradient(to left,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df) 1;
 }
 
-.foto{
-width:30%;
-border-radius: 5px;
-box-shadow: 1px 1px 25px var(--cor05);
+.swiper-slide{
+margin-left: 5%;
 }
 
+.swiper-slide>img{
+width:70% ;
+}
+.swiper-button-prev,.swiper-button-next{
+color: transparent;
+background-color: var(--cor07);
+border-radius: 50%;
+}
+.swiper-button-prev{
+background-color:var(--cor08) ;
+height: 40px;
+width: 40px;
+background: url(../imagens/chevron_left_black_24dp\ 1.png) no-repeat
+;
 
+}
 .rodape{
   display: flex;
 height:50px;
@@ -179,26 +199,6 @@ gap:20px ;
 margin-bottom:25% ;
 margin-top:13% ;
 
-
-
-}
-
-.apresentacao__certificados__texto{
-padding-bottom:8% ;
-padding-bottom:10% ;
-text-indent:0.5rem ;
-
-
-}
-
-.apresentacao__certificados{
-flex-direction: column;
-gap:90px ;
-
-}
-
-.foto{
-width:70% ;
 
 
 }
