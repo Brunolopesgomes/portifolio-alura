@@ -77,16 +77,20 @@
             <!-- Slider main container -->
             <h3 class="titulo__swiper">HTML CSS</h3>
             <div class="swiper">
+                
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                   <!-- Slides -->
-                  <div class="swiper-slide"><img src="imagens/foto-certificado.png" alt="imagem certificado"></div>
-                  <div class="swiper-slide"><img src="imagens/foto-certificado02.png" alt="imagem certificado"></div>
-                  <div class="swiper-slide"><img src="imagens/foto-certificado03.png" alt="imagem certificado"></div>
+                  <div class="swiper-slide"><img src="imagens/certificado01.png" alt="imagem certificado"></div>
+                  <div class="swiper-slide"><img src="imagens/certificado02.png" alt="imagem certificado"></div>
+                  <div class="swiper-slide"><img src="imagens/certificado03.png" alt="imagem certificado"></div>
+                  <div class="swiper-slide"><img src="imagens/certificado04.png" alt="imagem certificado"></div>
+                  <div class="swiper-slide"><img src="imagens/certificado05.png" alt="imagem certificado"></div>
+                  <div class="swiper-slide"><img src="imagens/certificado06.png" alt="imagem certificado"></div>
                   ...
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
               
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
@@ -110,15 +114,51 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-        slidesPerView: 2,   
+        slidesPerView: 3,   
         spaceBetween:0,
 
         navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
+        },
+    
+    pagination : {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        },
+
+      breakpoints:{
+
+        1440:{
+            slidesPerView:3
+        },
+
+        1024:{
+            slidesPerView:3
 
 
+        },
+
+        768:{
+            slidesPerView: 2,
+            spaceBetween: 0
+        },
+        
+        425:{
+            slidesPerView: 2,
+            spaceBetween: 0
+
+
+        },
+        320:{
+            slidesPerView: 2,
+            spaceBetween: 0
+
+
+        }
+
+
+      }
 });
 
 
