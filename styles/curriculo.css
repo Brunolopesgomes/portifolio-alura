@@ -305,12 +305,11 @@ margin:0 -1% 0 11%;
       
       }
       .swiper-button-prev,.swiper-button-next{
-       display: none;
+       
         }
         .swiper-slide>img{
-          width: 80%;
-          
-      margin-left: 10%;
+          width: 60%;
+          margin:0 0 0 20%;
         }
   
 }
