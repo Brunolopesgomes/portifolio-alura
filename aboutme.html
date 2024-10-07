@@ -61,7 +61,8 @@
                     
                                     <!-- Slider main container -->
                       <div class="swiper">
-                        <!-- Additional required wrapper -->
+                        <!-- Additional required wrapper -->   <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
                         <div class="swiper-wrapper">
                           <!-- Slides -->
                           <div class="swiper-slide">
@@ -87,8 +88,7 @@
                         </div>
                           ...
                         </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
+                     
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
@@ -128,6 +128,36 @@
     type: 'bullets',
       },
 
+      breakpoints:{
+
+        1440:{
+          slidesPerView:3
+
+        },
+        
+        1024:{
+          slidesPerView:3
+        },
+
+        768:{
+          slidesPerView:2
+        },
+        425:{
+          slidesPerView:2
+        },
+        
+        375:{
+          slidesPerView:2
+        },
+        
+        320:{
+          slidesPerView:2
+        },
+
+
+
+
+      }
 
 
    });
