@@ -82,7 +82,7 @@ background-image:linear-gradient(to left, black,#0a336168);
   font-size: 1.5rem;
   text-align: justify;
   color: var(--cor03);
-
+margin: 3% 0;
 
 
 }
@@ -150,12 +150,12 @@ background: var(--cor08);
 background-image:linear-gradient(to right,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df);
 font-family: var(--fonte02);
 text-align: center;
-font-size: 30px;
+font-size: 40px;
 line-height: 20px;
 margin-bottom: 10%;
 border: 2px solid;
 padding: 5%;
-width: 13%;
+width: 35%;
 -webkit-background-clip: text;
 -webkit-text-fill-color:transparent;
 border-image:linear-gradient(to left,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df) 1;
@@ -256,8 +256,8 @@ box-shadow:-8px 8px 5px var(--cor05);
   }
 
   .titulo__swiper{
-
-    font-size:17px ;
+    width: 35%;
+    font-size:25px ;
     }
     
     .swiper{
@@ -279,7 +279,11 @@ margin:0 -1% 0 11%;
 
   .cabecalho__menu__link{
   font-size: 21px;
- gap: 0px;
+  }
+  .cabecalho{
+  gap: 30px;
+  
+  
   }
   .cabecalho__menu{
   
@@ -290,13 +294,17 @@ margin:0 -1% 0 11%;
   padding-top: 5%;
   
   }
+
+
+
+
   .formacao__titulo{
     font-size: 20px;
-    
+    margin: 20% 0;
     
     }
     .titulo__swiper{
-      width:25% ;
+      width:35% ;
       font-size:17px ;
       }
 
@@ -312,4 +320,14 @@ margin:0 -1% 0 11%;
           margin:0 0 0 20%;
         }
   
+}
+@media screen and (max-width:320px){
+  .cabecalho{
+    gap: 17px;
+    
+    
+    }
+    .cabecalho__menu__link{
+      font-size: 19px;
+      }
 }
