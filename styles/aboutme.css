@@ -353,7 +353,19 @@ margin-top: 20%;
 
 
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:320px){
+
+.cabecalho__menu__link{
+font-size: 20px;
+
+}
+
+.apresentacao__conteudo__titulo{
+font-size: 20px;
+}
+.apresentacao__conteudo__texto{
+font-size: 17px;
+}
 
   .titulo__swiper{
   font-size: 24px;
