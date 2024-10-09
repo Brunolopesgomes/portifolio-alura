@@ -313,8 +313,9 @@ font-size: 20px;
 @media screen and (max-width:450px){
 
 .cabecalho{
-padding-left: 8%;
+padding-left: 5%;
 margin-bottom: 8%;
+gap: 50px;
 }
 
 .cabecalho__menu__link{
