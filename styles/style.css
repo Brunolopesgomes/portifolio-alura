@@ -285,7 +285,7 @@ margin-left: 10%;
 
 }
 
-@media (max-width:425px) {
+@media (max-width:450px) {
 
 .apresentacao{
 flex-direction: column-reverse;
@@ -321,35 +321,4 @@ font-size: 25px;
   width: 100%;
   
   }
-}
-
-@media (max-width:320px) {
-
-  .cabecalho__menu__link{
-  font-size: 20px;
-  
-  }
-  .apresentacao__conteudo__titulo{
-  font-size: 20px;
-  width: 100%;
-  text-align: center;
-  }
-
-  .apresentacao__conteudo__texto{
-    font-size: 20px;
-    }
-
-    .apresentacao__links{
-    
-      width: 100%;
-    }
-    .apresentacao__links__subtitulo{
-    width: 100%;
-    }
-
-    .apresentacao__links__navegacao{
-    width: 70%;
-    
-    }
-    
 }
