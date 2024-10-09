@@ -50,7 +50,7 @@ width: 50%;
 text-decoration: none;
 font-weight: 600;
 font-family: var(--fonte02);
-font-size: 1.5rem;
+font-size: 24px;
 color: var(--cor02);  
 
     
@@ -296,12 +296,12 @@ font-size: 30px;
 
 .apresentacao__conteudo__titulo{
 width: auto;
-font-size: 24px;
+font-size: 34px;
 margin-top: 5%;
 
 }
 .apresentacao__conteudo__texto{
-font-size: 24px;
+font-size: 20px;
 
 }
 
@@ -313,18 +313,22 @@ font-size: 24px;
 @media screen and (max-width:425px){
 
 .cabecalho{
-padding-left: 18%;
+padding-left: 8%;
 margin-bottom: 8%;
 }
 
 .apresentacao{
   width: 100%;
 
+}
+
+.apresentacao__conteudo__titulo{
+font-size: 27px;
 
 }
 
 .apresentacao__conteudo__texto{
-width: 85%;
+width: 80%;
 
 
 
