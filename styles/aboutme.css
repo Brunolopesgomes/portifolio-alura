@@ -37,8 +37,8 @@ box-sizing: border-box;
 
 .cabecalho{
   display: flex;
-padding-top: 5%;
-padding-left: 5%;
+padding-top:30px;
+padding-left:30px;
 width: 50%;
 
 }
@@ -54,10 +54,17 @@ font-weight: 600;
 font-family: var(--fonte02);
 font-size: 24px;
 color: var(--cor02);
-  
-
-    
 }
+.cabecalho__menu__link__destaque{
+text-decoration: none;
+font-family: var(--fonte02);
+font-size:1.5rem;
+color:#2BDEFD;
+font-weight: 600;
+
+}
+
+
 
 span{
 color: #2BDEFD;
