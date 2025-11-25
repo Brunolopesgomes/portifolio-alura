@@ -127,6 +127,7 @@ font-family: var(--fonte03);
  display: flex;
 flex-direction:row;
 align-items: center;
+gap: 50px;
 }
 
 .formacao__titulo{
@@ -139,43 +140,65 @@ text-align:start;
 text-shadow:3px 2px 3px black;
 }
 .formacao__front-end{
-
-  background-image: url(/portifolio-alura/imagens/67278.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
+width: 400px;
+height: 400px;
+border: 1px solid transparent;
+border-image:linear-gradient(to right,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df)1;
+display: flex;
+flex-direction: column;
+align-items: center;
 
 }
 
 .formacao__front-end__titulo{  
-background-image:linear-gradient(to right,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df);
 font-family: var(--fonte02);
 text-align: center;
 font-size: 30px;
-line-height: 20px;
-margin-bottom: 5%;
-border: 2px solid;
 padding: 1%;
-width: 15%;
--webkit-background-clip: text;
--webkit-text-fill-color:transparent;
-border-image:linear-gradient(to left,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df) 1;
+width: auto;
+ background: linear-gradient(to left,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df);
+ -webkit-background-clip:text;
+color: transparent;
+padding:20px 0px;
+
+}
+
+.formacao__links{
+  text-decoration: none;
+  font-family: var(--fonte03);
+  font-weight: normal;
+  line-height: 5px;
+  color: white;
+}
+
+.formacao__lista{
+margin-left: 25px;
+list-style:disc;
+color: greenyellow;
+
+}
+
+.formacao__back-end{
+width: 400px;
+height: 400px;
+border: 1px solid transparent;
+border-image:linear-gradient(to right, #055BA6,#0A6AA6,#F2BC1B,#F2AB27)1;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url(/portifolio-alura/imagens/back_python.jpg);
+background-size:cover;
+
 }
 
 .formacao__back-end__titulo{  
-background-image:linear-gradient(to right,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df);
-font-family: var(--fonte02);
+ font-family: var(--fonte02);
 text-align: center;
-font-size: 30px;
-line-height: 20px;
-margin-bottom: 5%;
-border: 2px solid;
-padding: 1%;
-width: 15%;
+font-size: 30px; 
+padding: 20px 0px;
+background: linear-gradient(to left, #055BA6,#0A6AA6,#F2BC1B,#F2AB27);
 -webkit-background-clip: text;
--webkit-text-fill-color:transparent;
-border-image:linear-gradient(to left,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df) 1;
+color: transparent;
 }
 
 
