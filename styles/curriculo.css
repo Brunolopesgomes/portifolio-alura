@@ -29,7 +29,7 @@ margin: 0px;
 
 
 body{
-  background-image: url(/portifolio-alura/imagens/fundo_tech_gpt.png);
+  background-image: url(/imagens/fundo_tech_gpt.png);
   background-position: center;
   background-size:cover;
   background-attachment:fixed;
@@ -186,7 +186,7 @@ border-image:linear-gradient(to right, #055BA6,#0A6AA6,#F2BC1B,#F2AB27)1;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-image: url(/portifolio-alura/imagens/back_python.jpg);
+background-image: url(/imagens/back_python.jpg);
 background-size:cover;
 
 }
@@ -215,130 +215,121 @@ background-image:linear-gradient(to right, rgba(0, 0, 0, 0.705),#0a336168,rgba(0
 color: var(--cor05);
 
 }
+/* ================================================= */
+/* RESET */
+/* ================================================= */
 
-/*-------------------------------------------------------------------------------------------*/
-@media (max-width:1024px) {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================================================= */
+/* MOBILE FIRST (Base - celulares) */
+/* ================================================= */
+
+/* Títulos */
+.formacao__titulo{
+  font-size: clamp(1.2rem, 4vw, 2rem);
+}
+
 .titulo__swiper{
+  width: 80%;
+  font-size: clamp(1rem, 4vw, 1.6rem);
+}
 
-font-size:22px ;
+/* Swiper */
+.swiper{
+  width: 100%;
+}
+
+.swiper-slide > img{
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+.cabecalho{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cabecalho__menu{
+  padding-top: 5%;
+}
+
+.cabecalho__menu__link{
+  font-size: clamp(0.9rem, 3.5vw, 1.3rem);
+}
+
+/* Apresentação */
+.apresentacao{
+  padding-top: 5%;
+}
+
+.apresentacao__informacoes__titulo{
+  font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+.apresentacao__informacoes__texto{
+  font-size: clamp(0.8rem, 3vw, 1rem);
 }
 
 
-.swiper-slide{
-margin:0 -3% 0 2.5%;
+/* ================================================= */
+/* TABLET (768px+) */
+/* ================================================= */
 
-
-}
-
-.swiper-slide>img{
-width: 70%;
-
-box-shadow:-8px 8px 5px var(--cor05); 
-
-}
-
-.swiper-button-prev,.swiper-button-next{
-  background-position: center;
-  height: 32px;
-  width: 32px;
-  }
-}
-
-
-/*-------------------------------------------------------------------------------------------*/
-
-@media screen and (max-width:820px){
-
-
-  .formacao__titulo{
-  font-size: 24px;
-  
-  
-  }
+@media (min-width: 768px){
 
   .titulo__swiper{
-    width: 35%;
-    font-size:25px ;
-    }
-    
-    .swiper{
-      width: 100%;
-    
-    }
-
-
-  .swiper-slide>img{
-    width: 72%;
-    
-margin:0 -1% 0 11%;
+    width: 60%;
   }
+
+  .swiper-slide > img{
+    width: 80%;
+  }
+
+  .cabecalho{
+    gap: 2rem;
+  }
+
 }
 
-/*-------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width:450px){
+/* ================================================= */
+/* DESKTOP (1024px+) */
+/* ================================================= */
+
+@media (min-width: 1024px){
+
+  .titulo__swiper{
+    width: 40%;
+  }
+
+  .swiper-slide > img{
+    width: 60%;
+  }
 
   .cabecalho__menu__link{
-  font-size: 21px;
-  }
-  .cabecalho{
-  gap: 30px;
-  
-  
-  }
-  .cabecalho__menu{
-  
-  padding-top: 5%;
-  }
-  
-  .apresentacao{
-  padding-top: 5%;
-  
+    font-size: 1.2rem;
   }
 
-  .apresentacao__informacoes__titulo{
-  
-  font-size: 20px;
-  
-  }
-
-  .apresentacao__informacoes__texto{
-  font-size: 14px;
-  
-  }
-
-
-
-  .formacao__titulo{
-    font-size: 24px;
-    margin: 20% 0;
-    
-    }
-    .titulo__swiper{
-      width:35% ;
-      font-size:17px ;
-      }
-
-      .swiper-pagination{
-      margin-bottom: 8%;
-      
-      }
-      .swiper-button-prev,.swiper-button-next{
-       
-        }
-        .swiper-slide>img{
-          width: 60%;
-          margin:0 0 0 20%;
-        }
-  
 }
-@media screen and (max-width:320px){
-  .cabecalho{
-    gap: 17px;
-    
-    
-    }
-    .cabecalho__menu__link{
-      font-size: 19px;
-      }
+
+
+/* ================================================= */
+/* TELAS GRANDES (1440px+) */
+/* ================================================= */
+
+@media (min-width: 1440px){
+
+  .swiper-slide > img{
+    width: 50%;
+  }
+
 }
