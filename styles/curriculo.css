@@ -215,15 +215,6 @@ background-image:linear-gradient(to right, rgba(0, 0, 0, 0.705),#0a336168,rgba(0
 color: var(--cor05);
 
 }
-/* ================================================= */
-/* RESET */
-/* ================================================= */
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /* ================================================= */
 /* MOBILE FIRST (Base - celulares) */
@@ -231,31 +222,14 @@ color: var(--cor05);
 
 /* Títulos */
 .formacao__titulo{
-  font-size: clamp(1.2rem, 4vw, 2rem);
-}
-
-.titulo__swiper{
-  width: 80%;
-  font-size: clamp(1rem, 4vw, 1.6rem);
-}
-
-/* Swiper */
-.swiper{
-  width: 100%;
-}
-
-.swiper-slide > img{
-  width: 100%;
-  max-width: 400px;
-  display: block;
-  margin: 0 auto;
+  font-size: 150%; 
 }
 
 /* Cabeçalho */
 .cabecalho{
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2%;
 }
 
 .cabecalho__menu{
@@ -263,7 +237,7 @@ color: var(--cor05);
 }
 
 .cabecalho__menu__link{
-  font-size: clamp(0.9rem, 3.5vw, 1.3rem);
+  font-size: 110%;
 }
 
 /* Apresentação */
@@ -272,11 +246,11 @@ color: var(--cor05);
 }
 
 .apresentacao__informacoes__titulo{
-  font-size: clamp(1rem, 4vw, 1.5rem);
+  font-size: 130%;
 }
 
 .apresentacao__informacoes__texto{
-  font-size: clamp(0.8rem, 3vw, 1rem);
+  font-size: 90%;
 }
 
 
@@ -295,7 +269,7 @@ color: var(--cor05);
   }
 
   .cabecalho{
-    gap: 2rem;
+    gap: 4%;
   }
 
 }
@@ -316,20 +290,7 @@ color: var(--cor05);
   }
 
   .cabecalho__menu__link{
-    font-size: 1.2rem;
-  }
-
-}
-
-
-/* ================================================= */
-/* TELAS GRANDES (1440px+) */
-/* ================================================= */
-
-@media (min-width: 1440px){
-
-  .swiper-slide > img{
-    width: 50%;
+    font-size: 120%;
   }
 
 }
