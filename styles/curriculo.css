@@ -29,7 +29,7 @@ margin: 0px;
 
 
 body{
-  background-image: url(/imagens/fundo_tech_gpt.png);
+  background-image: url(/portifolio-alura/imagens/fundo_tech_gpt.png);
   background-position: center;
   background-size:cover;
   background-attachment:fixed;
@@ -186,7 +186,7 @@ border-image:linear-gradient(to right, #055BA6,#0A6AA6,#F2BC1B,#F2AB27)1;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-image: url(/imagens/back_python.jpg);
+background-image: url(/portifolio-alura/imagens/back_python.jpg);
 background-size:cover;
 
 }
