@@ -1,447 +1,350 @@
+/* ================================================= */
+/* IMPORTS */
+/* ================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
 
-*{
-padding: 0px;
-margin: 0px;
+/* ================================================= */
+/* RESET */
+/* ================================================= */
 
+*{
+    padding: 0px;
+    margin: 0px;
 }
+
+/* ================================================= */
+/* VARIÁVEIS */
+/* ================================================= */
 
 :root{
     --cor01:#01080E;
-      --cor02:#0a336168;
-      --cor03:#D7F9FF;
-      --cor04:#4A8B91;
-      --cor05:#22d4fd;
-      --cor06:#5d39df;
-      --cor07:rgb(4, 237, 4);
-      --cor08:rgb(255, 106, 0);
-      --cor09:#FF6500;
-      --cor10:#1E3E62;
-      --cor11:#0B192C;
-      --cor-hover:rgb(25, 25, 25);
-      --fonte01:"Krona One", sans-serif;
-      --fonte02:"Montserrat", sans-serif;
-      --fonte03:"Science Gothic",sans-serif;
+    --cor02:#0a336168;
+    --cor03:#D7F9FF;
+    --cor04:#4A8B91;
+    --cor05:#22d4fd;
+    --cor06:#5d39df;
+    --cor07:rgb(4, 237, 4);
+    --cor08:rgb(255, 106, 0);
+    --cor09:#FF6500;
+    --cor10:#1E3E62;
+    --cor11:#0B192C;
+    --cor-hover:rgb(25, 25, 25);
+
+    --fonte01:"Krona One", sans-serif;
+    --fonte02:"Montserrat", sans-serif;
+    --fonte03:"Science Gothic",sans-serif;
 }
 
+/* ================================================= */
+/* BASE */
+/* ================================================= */
 
 body{
-  background-image: url(/portifolio-alura/imagens/fundo_tech_gpt.png);
-  background-position: center;
-  background-size:cover;
-  background-attachment:fixed;
-  box-sizing: border-box;
-
-}
-
-.cabecalho{
-display: flex;
-width:auto ;
-align-items:center;
-padding-top:30px;
-padding-left:30px;
-padding-bottom: 20px;
-background-color: rgba(0, 0, 0, 0.685);
-gap: 70px;
-
-}
-
-.cabecalho__menu__link{
-text-decoration: none;
-font-family: var(--fonte02);
-font-size:1.5rem;
-color:var(--cor04);
-font-weight: 600;
-text-shadow:3px 2px 3px black;
-}
-
-.cabecalho__menu__link__destaque{
-text-decoration: none;
-font-family: var(--fonte02);
-font-size:1.5rem;
-color:var(--cor04);
-font-weight: 600;
+    background-image: url(/portifolio-alura/imagens/background/fundo_tech_gpt.png);
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    box-sizing: border-box;
 }
 
 span{
-color: var(--cor05);
+    color: var(--cor05);
 }
+
+/* ================================================= */
+/* CABEÇALHO */
+/* ================================================= */
+
+.cabecalho{
+    display: flex;
+    width:auto;
+    justify-content: center;
+    align-items:center;
+    padding-top:30px;
+   
+    padding-bottom: 20px;
+    gap: 70px;
+    background-image:linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.705),
+        #0a336168,
+        rgba(0, 0, 0, 0.705));
+}
+
+.cabecalho_menu_link,
+.cabecalho_menu_link_destaque{
+    text-decoration: none;
+    font-family: var(--fonte02);
+    font-size:1.5rem;
+    color:var(--cor04);
+    font-weight: 600;
+}
+
+.cabecalho_menu_link{
+    text-shadow:3px 4px 2px black;
+}
+
+/* ================================================= */
+/* APRESENTAÇÃO */
+/* ================================================= */
 
 .apresentacao{
-display: flex;
-flex-direction: column;
-padding: 5%;
-background-image:linear-gradient(to right, rgba(0, 0, 0, 0.705),#0a336168,rgba(0, 0, 0, 0.705));
-
-}
-.apresentacao__informacoes__titulo{
-  font-family: var(--fonte01);
-  font-weight:normal;
-  font-size: 20px;
-  text-align: justify;
-  color: #E0F7FA;
-  text-shadow:3px 2px 3px black;
-  
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-image:linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.705),
+        #0a336168,
+        rgba(0, 0, 0, 0.705)
+    );
 }
 
-.apresentacao__informacoes{
-text-align: justify;
-display: flex;
-align-items:top;
-flex-direction: row-reverse;
-gap: 10%;
+.apresentacao_informacoes{
+    text-align: justify;
+    display: flex;
+    align-items:top;
+    flex-direction: row-reverse;
+    gap: 10%;
 }
 
-.apresentacao__link{
-  color: var(--cor07);
-  text-decoration: none;
+.apresentacao_informacoes_titulo{
+    font-family: var(--fonte01);
+    font-weight:normal;
+    font-size: 20px;
+    text-align: justify;
+    color: #E0F7FA;
+    text-shadow:3px 2px 3px black;
 }
 
-.apresentacao__link:hover{
-color: blue;
-
+.apresentacao_informacoes_texto{
+    color: var(--cor03);
+    font-family: var(--fonte02);
+    font-weight:normal;
+    font-size: 16px;
+    margin-bottom: 5%;
+    border: 1px solid var(--cor06);
+    padding: 1.5rem;
+    border-radius: 0px 0px 30px 0px;
+    background-color:rgba(0, 0, 0, 0.829);
 }
 
-.apresentacao__informacoes__texto{
-  color: white;
-  font-family: var(--fonte02);
-  font-weight:normal;
-  font-size: 16px;
-  color: var(--cor03);
-  margin-bottom: 5%;
-  border: 1px solid var(--cor06);
-  padding: 1.5rem;
-  border-radius: 0px 0px 30px 0px;
-  background-color:rgba(0, 0, 0, 0.829);
+.apresentacao_informacoes_texto_destaque{
+    color: rgb(4, 237, 4);
+    font-family: var(--fonte03);
 }
-.apresentacao__informacoes__texto__destaque{
-color: rgb(4, 237, 4);
-font-family: var(--fonte03);
 
+.apresentacao_link{
+    color: var(--cor07);
+    text-decoration: none;
 }
+
+.apresentacao_link:hover{
+    color: blue;
+}
+
+/* ================================================= */
+/* FORMAÇÕES */
+/* ================================================= */
 
 .formacoes{
- display: flex;
-flex-direction:row;
-justify-content: center;
-gap: 50px;
+    display: flex;
+    flex-direction:column;
 }
 
-.formacao__titulo{
-font-family: var(--fonte01);
-color: #E0F7FA;
-font-weight: normal;
-font-size: 25px;
-margin-top: 5%;
-margin-bottom:10%;
-text-align:start;
-text-shadow:3px 2px 3px black;
+
+.formacao_titulo{
+    font-family: var(--fonte01);
+    color: #E0F7FA;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom:10%;
+    text-align:center;
+    text-shadow:3px 2px 3px black;
 }
 
 .formacao_titulo_background{
-background-image: linear-gradient(to top,transparent,black,black,black);
-width: 100%;
+    width: 14%;
+    background-color: rgba(0, 0, 0, 0.884);
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    
+}
+
+/* FRONT-END */
+
+
+.imagem_link_html{
+width: 20%;
+}
+
+.imagem_link_python{
+  width: 23%;
+
+}
+
+.formacao_front-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    height: 500px;
+    margin-left: -6%;
+    margin-right: -6%;
+    border: 1px solid transparent;
+    border-image:linear-gradient(
+        to right,
+        rgb(255, 106, 0),
+        rgb(255, 106, 0),
+        #5d39df,
+        #5d39df
+    )1;
+    background-image: url(/portifolio-alura/imagens/background/html_css_gpt01.png);
+    background-size: contain;
+    background-attachment: fixed;
+    
+}
+
+.formacao_front-end_titulo{
+    font-family: var(--fonte02);
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    background: linear-gradient(
+        to left,
+        rgb(255, 106, 0),
+        rgb(255, 106, 0),
+        #5d39df,
+        #5d39df
+    );
+    -webkit-background-clip:text;
+    color: transparent;
+    padding:2px 0px;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+/* BACK-END */
+
+.formacao_back-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   
+    height: 350px;
+    margin-left: -6%;
+    margin-right: -6%;
+    border: 1px solid transparent;
+    border-image:linear-gradient(
+        to right,
+        #055BA6,
+        #0A6AA6,
+        #F2BC1B,
+        #F2AB27
+    )1;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/portifolio-alura/imagens/background/py_gpt02.png);
+    background-size:contain;
+  background-attachment: fixed;
+    
+}
+
+.formacao_back-end_titulo{
+    font-family: var(--fonte02);
+    text-align: center;
+    font-size: 30px;
+    padding: 2px 0px;
+    background: linear-gradient(
+        to left,
+        #055BA6,
+        #0A6AA6,
+        #F2BC1B,
+        #F2AB27
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 4%;
+    margin-top: 2%;
 }
 
 
-.formacao__front-end{
-width: 400px;
-height: 400px;
-border: 1px solid transparent;
-border-image:linear-gradient(to right,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df)1;
+
+/* LISTAS */
+
+.formacao_lista_html{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    margin-left: -2%;
+    
+}
+
+.formacao_lista_python{
 display: flex;
-flex-direction: column;
-align-items: center;
-background-image: url(/portifolio-alura/imagens/html_css_gpt03.png);
-background-size: cover;
+justify-content: center;
+gap: 10%;
 
 }
-
-.formacao__front-end__titulo{  
-font-family: var(--fonte02);
-text-align: center;
-font-size: 30px;
-padding: 1%;
-width: auto;
- background: linear-gradient(to left,rgb(255, 106, 0),rgb(255, 106, 0),#5d39df,#5d39df);
- -webkit-background-clip:text;
-color: transparent;
-padding:2px 0px;
-margin-bottom: 7%;
-margin-top: 4%;
-}
-.formacao__links{
-  text-decoration: none;
-  font-family: var(--fonte02);
-  font-weight: normal;
-  line-height: 1%;
-  color: white;
-  background-color: rgba(7, 66, 230, 0.26);
-  
-}
-
-.formacao__links:hover{
-  color: var(--cor05);
-}
-
-.formacao__lista{
+.formacao_lista_item{
   display: flex;
   flex-direction: column;
-  gap: 13%;
-margin-left: 7%;
-list-style:disc;
-color:var(--cor05);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  background-color: rgba(0, 0, 0, 0.582);
+  border-radius: 15px;
+  width: 330px;
+  height: 160px;
 
 }
 
-.formacao__back-end{
-width: 400px;
-height: 400px;
-border: 1px solid transparent;
-border-image:linear-gradient(to right, #055BA6,#0A6AA6,#F2BC1B,#F2AB27)1;
-display: flex;
-flex-direction: column;
-background-image: url(/portifolio-alura/imagens/py_gpt02.png);
-background-size:cover;
- 
+.formacao_links{
+    display: flex;
+    text-decoration: none;
+    font-family: var(--fonte02);
+   font-size: 14px;
+   width: 70%;
+    text-align: center;
+    color: white;
+    
 }
 
-.formacao__back-end__titulo{  
- font-family: var(--fonte02);
-text-align: center;
-font-size: 30px; 
-padding: 2px 0px;
-background: linear-gradient(to left, #055BA6,#0A6AA6,#F2BC1B,#F2AB27);
--webkit-background-clip: text;
-color: transparent;
-margin-bottom: 7%;
-margin-top: 4%;
-
+.formacao_links:hover{
+    color: var(--cor05);
 }
+
+/* ================================================= */
+/* RODAPÉ */
+/* ================================================= */
 
 .rodape{
-  display: flex;
-height:50px;
-justify-content: center;
-align-items: center;
-width: auto;
-font-family: var(--fonte01);
-font-size: 1rem;
-background-image:linear-gradient(to right, rgba(0, 0, 0, 0.705),#0a336168,rgba(0, 0, 0, 0.705));
-color: var(--cor05);
-
+    display: flex;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-family: var(--fonte01);
+    font-size: 1rem;
+    background-image:linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.705),
+        #0a336168,
+        rgba(0, 0, 0, 0.705)
+    );
+    color: var(--cor05);
 }
 
 /* ================================================= */
-/* MOBILE FIRST (Base - celulares) */
-/* ================================================= */
-@media (min-width:375px) {
-  
-/* Cabeçalho */
-.cabecalho{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8%;
-}
-.cabecalho__menu__link{
-  font-size: 110%;
-}
-
-/* Apresentação */
-.apresentacao__informacoes{
-  display: flex;
-  flex-direction: column;
-  padding-top: 7%;
-}
-.apresentacao__informacoes__titulo{
-  font-size: 11 0%;
-}
-.apresentacao__informacoes__texto{
-  font-size: 90%;
-}
-
-.formacoes{
-  display: flex;
-  flex-direction: column;
-
-}
-
-.formacao__front-end{
-width: auto;
-
-}
-
-.formacao__lista{
-gap: 8%;
-
-}
-.formacao__back-end{
-width: auto;
-
-}
-
-}
-/* ================================================= */
-/* TABLET (768px+) */
+/* RESPONSIVIDADE */
 /* ================================================= */
 
-@media (min-width: 768px){
-
-
-.cabecalho__menu__link{
-  font-size: 150%;
-}
-
-/* Apresentação */
-.apresentacao__informacoes{
-
-  padding-top: 3%;
-}
-.apresentacao__informacoes__titulo{
-  font-size: 130%;
-}
-.apresentacao__informacoes__texto{
-  font-size: 100%;
-}
-
-.formacoes{
-  display: flex;
-  flex-direction: column;
-
-}
-
-.formacao__front-end{
-width: auto;
-
-}
-
-.formacao__lista{
-gap: 21%;
-width: auto;
-}
-
-.formacao__links{
-font-size:17px;
-
-}
-
-}
-
-/* ================================================= */
-/* DESKTOP (1024px+) */
-/* ================================================= */
-
-@media (min-width: 1024px){
-
-
-.cabecalho__menu__link{
-  font-size: 130%;
-}
-
-/* Apresentação */
-.apresentacao__informacoes{
-  display: flex;
-  flex-direction: row;
-  padding-top: 2%;
-}
-.apresentacao__informacoes__titulo{
-  font-size: 130%;
-}
-.apresentacao__informacoes__texto{
-  font-size: 100%;
-}
-
-.formacoes{
-  display: flex;
-  flex-direction: row;
-
-}
-.formacao__front-end{
-width:400px;
-}
-.formacao__back-end{
-width:400px;
-}
-
-.formacao__lista{
-gap: 10%;
-}
-
-.formacao__links{
-font-size:16px;
-
-}
-}
-
-@media  (min-width:1440px){
-
-
-.formacao__front-end{
-width:50%;
-}
-.formacao__back-end{
-width:50%;
-}
-
-.formacao__lista{
-gap: 15%;
-}
-
-.formacao__links{
-font-size:18px;
-}
-
-}
-
-@media (min-width:2560px){
-
-.cabecalho__menu__link{
-  font-size: 250%;
-}
-
-/* Apresentação */
-.apresentacao__informacoes{
-  display: flex;
-  flex-direction: row;
-  padding-top: 2%;
-}
-.apresentacao__informacoes__titulo{
-  font-size: 210%;
-}
-.apresentacao__informacoes__texto{
-  font-size: 150%;
-}
-
-
-.formacao__titulo{
-font-size: 250%;
-text-align: center;
-}
-
-
-.formacao__front-end{
-width:110%;
-height: 700px;
-}
-.formacao__back-end{
-width:110%;
-height: 700px;
-}
-
-.formacao__lista{
-  width: auto;
-gap: 70%;
-}
-
-.formacao__links{
-font-size:27px;
-
-
-}
+@media (min-width:375px){
 
 
 }
