@@ -24,8 +24,8 @@ Tenho interesse em:
 Busco uma oportunidade de estágio em TI para aplicar meus conhecimentos, evoluir tecnicamente e contribuir com soluções reais.
 
 ## 📫 Contato
-- LinkedIn: (coloque aqui)
-- Email: (coloque aqui)
+- LinkedIn: www.linkedin.com/in/bruno-lopes-8280bb311
+- Email: bruno.lgs25@gmail.com
 
 ---
 ⭐ Obrigado por visitar meu portfólio!
