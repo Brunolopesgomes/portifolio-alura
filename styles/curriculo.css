@@ -20,17 +20,18 @@
 /* ================================================= */
 
 :root{
-    --cor01:#01080E;
-    --cor02:#0a336168;
-    --cor03:#D7F9FF;
-    --cor04:#4A8B91;
-    --cor05:#22d4fd;
-    --cor06:#5d39df;
-    --cor07:rgb(4, 237, 4);
-    --cor08:rgb(255, 106, 0);
-    --cor09:#FF6500;
-    --cor10:#1E3E62;
-    --cor11:#0B192C;
+    --cor01: #0D0F14; /* bg-primary */
+  --cor02: #1A1D24; /* bg-secondary */
+  --cor03: #14171C; /* card-bg */
+
+  --cor04: #00E5FF; /* accent-blue */
+  --cor05: #FF4D4D; /* accent-red */
+
+  --cor06: #EAEAEA; /* text-primary */
+  --cor07: #A0A4AB; /* text-secondary */
+
+  --cor08: #2A2F3A; /* highlight */
+  
     --cor-hover:rgb(25, 25, 25);
 
     --fonte01:"Krona One", sans-serif;
@@ -43,12 +44,14 @@
 /* ================================================= */
 
 body{
-    background-image: url(/imagens/background/fundo_tech_gpt.png);
+    background-image: url(/imagens/background/fundo_tech.jpg);
     background-position: center;
     background-size:cover;
     background-attachment:fixed;
     box-sizing: border-box;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 span{
     color: var(--cor05);
@@ -60,12 +63,9 @@ span{
 
 .cabecalho{
     display: flex;
-    width:auto;
     justify-content: center;
-    align-items:center;
     padding-top:30px;
    
-    padding-bottom: 20px;
     gap: 70px;
     background-image:linear-gradient(
         to right,
@@ -102,50 +102,60 @@ span{
         rgba(0, 0, 0, 0.705)
     );
 }
-
 .apresentacao_informacoes{
-    text-align: justify;
     display: flex;
-    align-items:top;
-    flex-direction: row-reverse;
-    gap: 10%;
+    gap: 30px;
+}
+
+/* transforma seus blocos em "cards" sem mudar HTML */
+.apresentacao_parte01,
+.apresentacao_parte02{
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--cor05);
+  background: rgba(0,0,0,0.6);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+/* efeito profissional */
+.apresentacao_parte01:hover,
+.apresentacao_parte02:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px var(--cor05);
 }
 
 .apresentacao_informacoes_titulo{
     font-family: var(--fonte01);
-    font-weight:normal;
-    font-size: 20px;
-    text-align: justify;
+    font-size: 22px;
     color: #E0F7FA;
-    text-shadow:3px 2px 3px black;
+    margin-bottom: 15px;
 }
 
+/* texto mais limpo e moderno */
 .apresentacao_informacoes_texto{
-    color: var(--cor03);
+    color: #ccc;
     font-family: var(--fonte02);
-    font-weight:normal;
-    font-size: 16px;
-    margin-bottom: 5%;
-    border: 1px solid var(--cor06);
-    padding: 1.5rem;
-    border-radius: 0px 0px 30px 0px;
-    background-color:rgba(0, 0, 0, 0.829);
+    font-size: 14px;
+    line-height: 1.6;
 }
 
+/* destaque mais suave (menos verde gritante) */
 .apresentacao_informacoes_texto_destaque{
-    color: rgb(4, 237, 4);
-    font-family: var(--fonte03);
+    color: var(--cor04);
+    font-weight: bold;
 }
 
+/* links mais modernos */
 .apresentacao_link{
-    color: var(--cor07);
+    color: var(--cor04);
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .apresentacao_link:hover{
-    color: blue;
+    color: #fff;
 }
-
 /* ================================================= */
 /* FORMAÇÕES */
 /* ================================================= */
@@ -153,7 +163,31 @@ span{
 .formacoes{
     display: flex;
     flex-direction:column;
+    align-items: center;
 }
+
+.formacoes_faculdade{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: var(--fonte02);
+    background-color: rgba(0, 0, 0, 0.603);
+    width: auto;
+    padding: 30px;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+
+.formacoes_faculdade:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px var(--cor05);
+
+}
+.titulo_facu{
+color: var(--cor04);
+}
+
 
 
 .formacao_titulo{
@@ -175,7 +209,6 @@ span{
     margin-bottom: 4%;
     
 }
-
 /* FRONT-END */
 
 
@@ -194,16 +227,7 @@ width: 20%;
     align-items: center;
    
     height: 500px;
-    margin-left: -6%;
-    margin-right: -6%;
-    border: 1px solid transparent;
-    border-image:linear-gradient(
-        to right,
-        rgb(255, 106, 0),
-        rgb(255, 106, 0),
-        #5d39df,
-        #5d39df
-    )1;
+   width: 130%;
     background-image: url(/imagens/background/html_css_gpt01.png);
     background-size: contain;
     background-attachment: fixed;
@@ -237,16 +261,7 @@ width: 20%;
     align-items: center;
   
     height: 350px;
-    margin-left: -6%;
-    margin-right: -6%;
-    border: 1px solid transparent;
-    border-image:linear-gradient(
-        to right,
-        #055BA6,
-        #0A6AA6,
-        #F2BC1B,
-        #F2AB27
-    )1;
+    width: 130%;
     display: flex;
     flex-direction: column;
     background-image: url(/imagens/background/py_gpt02.png);
@@ -302,6 +317,12 @@ gap: 10%;
   width: 330px;
   height: 160px;
 
+}
+
+.formacao_lista_item:hover{
+  transform: translateY(-5px);
+    box-shadow: 0 15px 40px var(--cor05);
+    
 }
 
 .formacao_links{
