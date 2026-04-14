@@ -446,7 +446,7 @@ grid-template-columns: repeat(2, 1fr);
 
 
 .formacao_back-end{
-background-size: cover;
+background-size: contain;
 }
 
 .imagem_link_python{
