@@ -185,14 +185,10 @@ span{
 .formacoes_faculdade:hover{
     transform: translateY(-5px);
     box-shadow: 0 15px 40px var(--cor04);
-
 }
 .titulo_facu{
 color: var(--cor04);
 }
-
-
-
 .formacao_titulo{
     font-family: var(--fonte01);
     color: #E0F7FA;
@@ -221,21 +217,18 @@ width: 20%;
 
 .imagem_link_python{
   width: 23%;
-
 }
 
 .formacao_front-end{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     height: 500px;
    width: 100vw;
     background-image: url(../imagens/background/html_css_gpt01.png);
     background-size: cover;
     background-attachment: fixed;
-    
-    
+
 }
 
 .formacao_front-end_titulo{
@@ -317,7 +310,6 @@ gap: 10%;
   background-color: rgba(8, 8, 8, 0.911);
   border-radius: 15px;
   width: 100%;
-  max-width: 330px;
   height: 160px;
 
 }
@@ -525,6 +517,10 @@ body{
 
 @media (min-width: 768px){
 
+body{
+     background-position: center;
+}
+
   .cabecalho_menu_link{
     font-size: 24px;
   }
@@ -566,7 +562,7 @@ body{
   }
 
   .formacao_front-end{
-    height: 630px;
+    height: 670px;
   }
 
   .formacao_lista_item{
@@ -595,84 +591,53 @@ body{
 /* ================================================= */
 
 @media (min-width: 2560px){
+.apresentacao{
+    align-items: center;
+}
 
-  .cabecalho{
-    gap: 200px;
-  }
+.formacoes{
+    gap: 0px;
+}
 
-  .cabecalho_menu_link{
-    font-size: 54px;
-  }
+.formacao_titulo{
+margin-top: 130px; 
+margin-bottom: 80px;
+font-size: 30px;
 
-  .apresentacao_informacoes{
-    justify-content: center;
-    height: 600px;
-  }
+}
 
-  .apresentacao_informacoes_texto{
-    font-size: 30px;
-  }
+.formacoes_faculdade{
+margin-bottom:50px;
+}
+.formacao_front-end{
 
-  .apresentacao_informacoes_titulo{
-    font-size: 33px;
-  }
+    height: 900px;
+}
+.formacao_back-end{
+height: 500px;
+}
 
-  .formacao_titulo{
-    margin-top: 70px;
-    font-size: 55px;
-  }
+.formacao_lista_html{
+    gap: 100px;
+}
 
-  .formacoes_faculdade{
-    height: 500px;
-    width: 700px;
-  }
-
-  .titulo_facu{
-    font-size: 45px;
-  }
-
-  .informacoes_facu{
+.formacao_front-end_titulo{
     font-size: 35px;
-  }
+}
+.formacao_titulo_background{
+width: 300px;
 
-  .formacao_titulo_background{
-    width: 500px;
-  }
+}
 
-  .formacao_front-end{
-    height: 1100px;
-  }
+.formacao_lista_item{
+width:300px;
 
-  .formacao_front-end_titulo{
-    font-size: 45px;
-  }
-
-  .formacao_lista_item{
-    width: 700px;
-    height: 250px;
-  }
-
-  .imagem_link_html,
-  .imagem_link_python{
-    width: 120px;
-  }
-
-  .formacao_links{
-    font-size: 23px;
-    width: auto;
-  }
-
-  .formacao_back-end{
-    background-size: cover;
-    height: 550px;
-  }
-
-  .formacao_back-end_titulo{
-    font-size: 45px;
-  }
-
-  .rodape_conteudo_texto{
-    font-size: 35px;
-  }
+}
+.imagem_link_html{
+width: 60px;
+}
+.formacao_links{
+font-size: 12px;
+}
 
 }
