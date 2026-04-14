@@ -233,7 +233,7 @@ width: 20%;
    width: 100vw;
     background-image: url(../imagens/background/html_css_gpt01.png);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     
     
 }
@@ -269,7 +269,7 @@ width: 20%;
     flex-direction: column;
     background-image: url(../imagens/background/py_gpt02.png);
     background-size:cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
     
 }
 
@@ -314,7 +314,7 @@ gap: 10%;
   justify-content: center;
   align-items: center;
   margin-bottom: 5%;
-  background-color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(8, 8, 8, 0.911);
   border-radius: 15px;
   width: 100%;
   max-width: 330px;
@@ -411,7 +411,7 @@ body{
 }
 
 .formacao_front-end{
-  height: 650px;
+  height: 670px;
   margin-top: 20px;
 }
 
@@ -433,7 +433,7 @@ body{
 }
 
 .formacao_links{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .imagem_link_python{
@@ -467,8 +467,8 @@ body{
   }
 
   .formacao_links{
-    font-size: 13px;
-    width: 170px;
+    font-size: 11px;
+    width: 150px;
   }
 }
 
