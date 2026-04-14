@@ -451,7 +451,7 @@ body{
 @media (min-width: 375px){
 
   .cabecalho{
-    gap: 20px;
+    gap: 30px;
   }
 
   .cabecalho_menu_link{
@@ -459,8 +459,18 @@ body{
   }
 
   .formacao_lista_item{
-    width: 170px;
+    width: 160px;
   }
+
+.formacao_lista_html{
+
+    gap: 25px;
+}
+
+.formacao_front-end{
+    height: 730px;
+}
+
 
   .imagem_link_html{
     width: 50px;
@@ -470,6 +480,11 @@ body{
     font-size: 11px;
     width: 150px;
   }
+
+.formacao_lista_python{
+
+    gap: 15px;
+}
 }
 
 /* ================================================= */
