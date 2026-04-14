@@ -13,6 +13,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 /* ================================================= */
@@ -52,6 +53,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+     overflow-x: hidden;
+     margin: 0;
 }
 span{
     color: var(--cor05);
@@ -228,10 +231,11 @@ width: 20%;
     align-items: center;
    
     height: 500px;
-   width: 130%;
+   width: 100vw;
     background-image: url(../imagens/background/html_css_gpt01.png);
     background-size: contain;
     background-attachment: fixed;
+    
     
 }
 
@@ -262,7 +266,7 @@ width: 20%;
     align-items: center;
   
     height: 350px;
-    width: 130%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     background-image: url(../imagens/background/py_gpt02.png);
@@ -297,7 +301,6 @@ width: 20%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2%;
-    margin-left: -2%;
     
 }
 
@@ -315,7 +318,8 @@ gap: 10%;
   margin-bottom: 5%;
   background-color: rgba(0, 0, 0, 0.582);
   border-radius: 15px;
-  width: 330px;
+  width: 100%;
+  max-width: 330px;
   height: 160px;
 
 }
