@@ -384,7 +384,7 @@ body{
 }
 
 .cabecalho{
-  gap: 25px;
+  gap: 35px;
 }
 
 .cabecalho_menu_link{
@@ -411,7 +411,7 @@ body{
 }
 
 .formacao_front-end{
-  height: 670px;
+  height: 700px;
   margin-top: 20px;
 }
 
@@ -422,6 +422,7 @@ body{
 .formacao_lista_html{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
 }
 
 .formacao_lista_item{
