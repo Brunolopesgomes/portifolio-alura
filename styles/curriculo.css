@@ -44,7 +44,7 @@
 /* ================================================= */
 
 body{
-    background-image: url(/imagens/background/fundo_tech.jpg);
+    background-image: url(../imagens/background/fundo_tech.jpg);
     background-position: center;
     background-size:cover;
     background-attachment:fixed;
@@ -228,7 +228,7 @@ width: 20%;
    
     height: 500px;
    width: 130%;
-    background-image: url(/imagens/background/html_css_gpt01.png);
+    background-image: url(../imagens/background/html_css_gpt01.png);
     background-size: contain;
     background-attachment: fixed;
     
@@ -264,7 +264,7 @@ width: 20%;
     width: 130%;
     display: flex;
     flex-direction: column;
-    background-image: url(/imagens/background/py_gpt02.png);
+    background-image: url(../imagens/background/py_gpt02.png);
     background-size:contain;
   background-attachment: fixed;
     
