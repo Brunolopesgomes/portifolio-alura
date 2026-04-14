@@ -45,14 +45,14 @@
 
 body{
     background-image: url(../imagens/background/fundo_tech.jpg);
-    background-position: center;
+    
     background-size:cover;
     background-attachment:fixed;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+}
 span{
     color: var(--cor05);
 }
@@ -172,6 +172,7 @@ span{
     color: white;
     font-family: var(--fonte02);
     background-color: rgba(0, 0, 0, 0.603);
+    border: 1px solid var(--cor04);
     width: auto;
     padding: 30px;
     border-radius: 15px;
@@ -181,7 +182,7 @@ span{
 
 .formacoes_faculdade:hover{
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px var(--cor05);
+    box-shadow: 0 15px 40px var(--cor04);
 
 }
 .titulo_facu{
@@ -364,5 +365,556 @@ gap: 10%;
 /* ================================================= */
 /* RESPONSIVIDADE */
 /* ================================================= */
+/* ================================================= */
+/* RESPONSIVIDADE */
+/* ================================================= */
+
+/* 📱 CELULAR */
+
+@media screen and (min-width:320px) {
+
+.cabecalho{
+gap: 25px;
+}
+
+.cabecalho_menu_link{
+font-size: 17px;
+
+}
+
+.apresentacao_informacoes_titulo{
+    font-size: 18px;
+}
+
+.apresentacao_informacoes{
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.formacao_titulo_background{
+width: 150px;
+margin-top: 20px;
+}
+
+.formacao_titulo{
+margin-top: 30px;
+    font-size: 20px;
+}
+
+.formacao_front-end_titulo{
+
+    font-size: 20px;
+    
+}
+ 
+.formacao_front-end{
+background-size: cover;
+height:650px;
+margin-top: 20px;
+
+}
 
 
+.formacao_lista_html{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+.formacao_lista_item{
+    width: 150px;
+    
+}
+
+.imagem_link_html{
+    width: 40px;
+}
+
+.formacao_links{
+    font-size:12px;
+}
+
+
+.formacao_back-end{
+
+background-size: cover;  
+}
+
+.imagem_link_python{
+ width: 45px;
+
+}
+.formacao_lista_python{
+    gap: 5px;
+}
+
+}
+
+@media screen and (min-width:375px) {
+
+
+    
+    .cabecalho{
+gap: 15px;
+}
+
+.cabecalho_menu_link{
+font-size: 22px;
+
+}
+
+.apresentacao_informacoes{
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.formacao_titulo_background{
+width: 150px;
+margin-top: 20px;
+}
+
+.formacao_front-end_titulo{
+
+    font-size: 20px;
+    
+}
+ 
+.formacao_front-end{
+background-size: cover;
+height:650px;
+
+}
+
+
+.formacao_lista_html{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+.formacao_lista_item{
+    width: 170px;
+    
+}
+
+.imagem_link_html{
+    width: 50px;
+}
+
+.formacao_links{
+    font-size:13px;
+    width: 170px;
+}
+
+
+.formacao_back-end{
+
+background-size: cover;  
+}
+
+.imagem_link_python{
+ width: 45px;
+
+}
+.formacao_lista_python{
+    gap: 5px;
+}
+
+}
+
+@media screen and (min-width:425px) {
+
+    .cabecalho{
+gap: 50px;
+}
+
+.cabecalho_menu_link{
+font-size: 22px;
+
+}
+
+.apresentacao_informacoes{
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.formacao_titulo_background{
+width: 200px;
+margin-top: 20px;
+}
+
+.formacao_front-end_titulo{
+
+    font-size: 20px;
+    
+}
+ 
+.formacao_front-end{
+background-size: cover;
+height:750px;
+
+}
+
+
+.formacao_lista_html{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+.formacao_lista_item{
+    width: 200px;
+    
+}
+
+.imagem_link_html{
+    width: 50px;
+}
+
+.formacao_links{
+    font-size:13px;
+    width:190px ;
+}
+
+
+.formacao_back-end{
+
+background-size: cover;  
+}
+
+.imagem_link_python{
+ width: 45px;
+
+}
+.formacao_lista_python{
+    gap: 5px;
+}
+
+}
+
+@media screen and (min-width:768px) {
+    
+    .cabecalho{
+gap: 50px;
+}
+
+.cabecalho_menu_link{
+font-size: 24px;
+
+}
+
+.apresentacao_informacoes{
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.formacao_titulo_background{
+width: 200px;
+margin-top: 20px;
+}
+
+.formacao_front-end_titulo{
+
+    font-size: 25px;
+    
+}
+ 
+.formacao_front-end{
+height:570px;
+}
+
+
+.formacao_lista_html{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+}
+
+.formacao_lista_item{
+    width: 230px;
+    
+}
+
+.imagem_link_html{
+    width: 50px;
+}
+
+.formacao_links{
+    font-size:13px;
+    width:190px ;
+}
+
+
+.formacao_back-end{
+
+background-size: cover;  
+}
+
+.imagem_link_python{
+ width: 50px;
+
+}
+
+
+}
+
+@media screen and (min-width:1024px) {
+    
+    
+    .cabecalho{
+gap: 50px;
+}
+
+.cabecalho_menu_link{
+font-size: 24px;
+
+}
+
+.apresentacao_informacoes{
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+
+.formacao_titulo{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+
+.formacao_titulo_background{
+width: 200px;
+margin-top: 20px;
+}
+
+.formacao_front-end_titulo{
+
+    font-size: 25px;
+    
+}
+ 
+.formacao_front-end{
+height:630px;
+}
+
+
+.formacao_lista_html{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+}
+
+.formacao_lista_item{
+    width: 300px;
+    
+}
+
+.imagem_link_html{
+    width: 60px;
+}
+
+.formacao_links{
+    font-size:13px;
+    width:190px ;
+}
+
+
+.formacao_back-end{
+
+background-size: cover;  
+}
+
+.imagem_link_python{
+ width: 60px;
+
+}
+
+}
+
+@media screen and (min-width:1440px){
+
+    
+    .cabecalho{
+gap: 50px;
+}
+
+.cabecalho_menu_link{
+font-size: 24px;
+
+}
+
+.apresentacao_informacoes{
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+
+.formacao_titulo{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+
+.formacao_titulo_background{
+width: 200px;
+margin-top: 20px;
+}
+
+.formacao_front-end_titulo{
+
+    font-size: 25px;
+    
+}
+ 
+.formacao_front-end{
+height:730px;
+}
+
+
+.formacao_lista_html{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+}
+
+.formacao_lista_item{
+    width: 300px;
+    
+}
+
+.imagem_link_html{
+    width: 60px;
+}
+
+.formacao_links{
+    font-size:13px;
+    width:190px ;
+}
+
+
+.formacao_back-end{
+
+background-size: cover;  
+}
+
+.imagem_link_python{
+ width: 60px;
+
+}
+
+
+
+}
+
+@media screen and (min-width:2560px){
+
+    
+    .cabecalho{
+gap: 200px;
+}
+
+.cabecalho_menu_link{
+font-size: 54px;
+
+}
+.apresentacao_informacoes{
+
+justify-content: center;
+height: 600px;
+
+}
+
+.apresentacao_informacoes_texto{
+    font-size: 30px;
+}
+
+.apresentacao_informacoes_titulo{
+font-size: 33px;
+
+}
+
+
+.formacao_titulo{
+    margin-top: 70px;
+    font-size: 55px;
+}
+
+.formacoes_faculdade{
+
+    height: 500px;
+    width: 700px;
+}
+
+.titulo_facu{
+
+    font-size: 45px;
+}
+
+.informacoes_facu{
+
+    font-size: 35px;
+}
+
+.formacao_titulo_background{
+width:500px;
+margin-top: 20px;
+}
+
+.formacao_front-end_titulo{
+
+    font-size: 45px;
+    
+}
+ 
+.formacao_front-end{
+height:1100px;
+}
+
+
+.formacao_lista_html{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+}
+
+.formacao_lista_item{
+    width: 700px;
+    height: 250px;
+    
+}
+
+.imagem_link_html{
+    width: 120px;
+}
+
+.formacao_links{
+    font-size:23px;
+    width:auto ;
+}
+
+
+.formacao_back-end{
+
+background-size: cover;  
+height: 550px;
+}
+
+.imagem_link_python{
+ width: 120px;
+
+}
+
+.formacao_back-end_titulo{
+
+ font-size: 45px;
+
+}
+
+
+.rodape_conteudo_texto{
+    font-size: 35px;
+}
+
+
+
+}
