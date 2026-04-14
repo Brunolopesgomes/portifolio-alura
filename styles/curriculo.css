@@ -487,11 +487,6 @@ margin-top: 20px;
     
 }
  
-.formacao_front-end{
-background-size: cover;
-height:650px;
-
-}
 
 
 .formacao_lista_html{
@@ -512,12 +507,6 @@ grid-template-columns: repeat(2, 1fr);
 .formacao_links{
     font-size:13px;
     width: 170px;
-}
-
-
-.formacao_back-end{
-
-background-size: cover;  
 }
 
 .imagem_link_python{
@@ -558,7 +547,6 @@ margin-top: 20px;
 }
  
 .formacao_front-end{
-background-size: cover;
 height:750px;
 
 }
@@ -582,12 +570,6 @@ grid-template-columns: repeat(2, 1fr);
 .formacao_links{
     font-size:13px;
     width:190px ;
-}
-
-
-.formacao_back-end{
-
-background-size: cover;  
 }
 
 .imagem_link_python{
@@ -652,11 +634,6 @@ grid-template-columns: repeat(3,1fr);
     width:190px ;
 }
 
-
-.formacao_back-end{
-
-background-size: cover;  
-}
 
 .imagem_link_python{
  width: 50px;
@@ -725,13 +702,6 @@ grid-template-columns: repeat(3,1fr);
     font-size:13px;
     width:190px ;
 }
-
-
-.formacao_back-end{
-
-background-size: cover;  
-}
-
 .imagem_link_python{
  width: 60px;
 
@@ -799,18 +769,10 @@ grid-template-columns: repeat(3,1fr);
     width:190px ;
 }
 
-
-.formacao_back-end{
-
-background-size: cover;  
-}
-
 .imagem_link_python{
  width: 60px;
 
 }
-
-
 
 }
 
