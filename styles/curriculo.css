@@ -497,6 +497,7 @@ transform: translateY(-5px);
 
 body{
     background-position: center;
+    background-image: none;
 }
 
 .cabecalho_menu_link{
