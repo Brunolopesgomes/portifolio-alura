@@ -257,7 +257,6 @@ width: 20%;
     flex-direction: column;
     align-items: center;
     height: 350px;
-    
     display: flex;
     flex-direction: column;
     background-image: url(../imagens/background/py_gpt02.png);
@@ -302,7 +301,7 @@ justify-content: center;
 gap: 50px;
 
 }
-.formacao_lista_item{
+.formacao_item_html{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -315,11 +314,11 @@ gap: 50px;
     linear-gradient(45deg, orange, blue) border-box;
   width: 100%;
   height: 160px;
-  gap: 10px;
+  gap: 0px;
 }
 
 
-.formacao_lista_item_python{
+.formacao_item_python{
  display: flex;
   flex-direction: column;
   justify-content: center;
@@ -332,7 +331,6 @@ gap: 50px;
     linear-gradient(45deg, orange, blue) border-box;
   width: 100%;
   height: 160px;
-  gap: 20px;
 }
 
 .formacao_lista_item:hover{
@@ -437,8 +435,9 @@ transform: translateY(-5px);
     width: 300px;
 }
 
-.formacao_lista_item{
+.formacao_item_html{
     width:300px;
+  gap: 15px;
 }
 
 .imagem_link_html{
@@ -447,6 +446,9 @@ transform: translateY(-5px);
 
 .formacao_links{
     font-size: 12px;
+}
+.formacao_item_python{
+  gap: 15px;
 }
 }
 /* ================================================= */
@@ -461,10 +463,10 @@ transform: translateY(-5px);
 .formacao_back-end{
   height: 430px;
 }
-.formacao_lista_item{
+.formacao_item_html{
   width: 250px;
 }
-.formacao_lista_item_python{
+.formacao_item_python{
   width: 300px;
 }
 
@@ -484,7 +486,7 @@ transform: translateY(-5px);
     height: 770px;
 }
 
-.formacao_lista_item{
+.formacao_item_html{
   width: 250px;
 }
 .imagem_link_html,
@@ -536,10 +538,7 @@ body{
   
     background-image: none;
 }
-
-
-
-.formacao_lista_item{
+.formacao_item_html{
     width: 200px;
 }
 
@@ -603,7 +602,7 @@ body{
     grid-template-columns: repeat(2,1fr);
 }
 
-.formacao_lista_item{
+.formacao_item_html{
     width: 150px;
     
 }
@@ -625,7 +624,7 @@ body{
 
 }
 
-.formacao_lista_item_python{
+.formacao_item_python{
   width: 190px;
 }
 }
@@ -642,7 +641,7 @@ body{
     font-size: 20px;
 }
 
-.formacao_lista_item{
+.formacao_item_html{
     width: 160px;
 }
 
@@ -722,12 +721,13 @@ body{
     gap: 16px;
 }
 
-.formacao_lista_item{
+.formacao_item_html{
     width: 150px;
 }
 
 .formacao_lista_python{
   width: 110px;
+  gap: 5px;
 }
 
 .imagem_link_html{
@@ -742,7 +742,4 @@ body{
     width: 45px;
 }
 
-.formacao_lista_python{
-    gap: 5px;
-}
 }
