@@ -509,6 +509,7 @@ body{
 
 .formacao_front-end{
     height: 770px;
+    background-image: none;
 }
 
 .formacao_front-end_titulo{
@@ -518,6 +519,12 @@ body{
 .formacao_lista_html{
   gap: 50px;
 }
+
+.formacao_back-end{
+  
+    background-image: none;
+}
+
 
 
 .formacao_lista_item{
