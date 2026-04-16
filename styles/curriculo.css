@@ -573,6 +573,7 @@ body{
 
 .formacao_front-end{
     height: 820px;
+    background-image: none;
 }
 .formacao_lista_html{
     display: grid;
@@ -586,6 +587,11 @@ body{
 
 .formacao_links{
     width: 120px;
+}
+
+.formacao_back-end{
+  
+    background-image: none;
 }
 
 .formacao_lista_python{
