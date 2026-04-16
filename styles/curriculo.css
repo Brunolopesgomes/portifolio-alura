@@ -224,11 +224,7 @@ width: 20%;
     flex-direction: column;
     align-items: center;
     height: 500px;
-   width: 100vw;
-    background-image: url(../imagens/background/html_css_gpt01.png);
-    background-size: cover;
-    background-attachment: fixed;
-
+  
 }
 
 .formacao_front-end_titulo{
@@ -257,12 +253,9 @@ width: 20%;
     flex-direction: column;
     align-items: center;
     height: 350px;
-    width: 100vw;
+    
     display: flex;
     flex-direction: column;
-    background-image: url(../imagens/background/py_gpt02.png);
-    background-size:cover;
-  background-attachment: fixed;
     
 }
 
@@ -413,10 +406,20 @@ transform: translateY(-5px);
 
 .formacao_front-end{
     height: 900px;
+     width: 100vw;
+    background-image: url(../imagens/background/html_css_gpt01.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+
 }
 
 .formacao_back-end{
     height: 500px;
+  background-image: url(../imagens/background/py_gpt02.png);
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100vw;
 }
 
 .formacao_lista_html{
@@ -497,7 +500,6 @@ transform: translateY(-5px);
 
 body{
     background-position: center;
-    background-image: none;
 }
 
 .cabecalho_menu_link{
