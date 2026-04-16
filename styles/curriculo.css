@@ -557,11 +557,11 @@ body{
 @media (max-width: 425px){
 
 .cabecalho{
-    gap: 25px;
+    gap: 20px;
 }
 
 .cabecalho_menu_link{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .apresentacao_informacoes{
