@@ -557,7 +557,7 @@ body{
 @media (max-width: 425px){
 
 .cabecalho{
-    gap: 50px;
+    gap: 25px;
 }
 
 .cabecalho_menu_link{
