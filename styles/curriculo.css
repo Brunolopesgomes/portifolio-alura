@@ -522,8 +522,14 @@ body{
 }
 
 .formacao_lista_html{
-  gap: 50px;
+  gap: 20px;
 }
+
+
+.formacao_lista_python{
+   gap: 20px;
+}
+
 
 .formacao_back-end{
   
@@ -534,6 +540,10 @@ body{
 
 .formacao_lista_item{
     width: 200px;
+}
+
+.formacao_lista_python{
+  width: 500px;
 }
 
 .imagem_link_python{
