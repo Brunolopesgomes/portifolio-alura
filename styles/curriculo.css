@@ -606,19 +606,21 @@ body{
     width: 170px;
     
 }
+.formacao_lista_python{
+  width: 190px;
+}
 
 .formacao_links{
-    width: 120px;
+    width: 150px;
 }
 
 .formacao_back-end{
-  
     background-image: none;
 }
 
 .formacao_lista_python{
-  gap: 10px;
-  margin-top: 20px;
+  gap: 15px;
+
 }
 
 .formacao_lista_item_python{
@@ -631,11 +633,11 @@ body{
 @media (max-width: 375px){
 
 .cabecalho{
-    gap: 30px;
+    gap: 20px;
 }
 
 .cabecalho_menu_link{
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .formacao_lista_item{
@@ -660,7 +662,7 @@ body{
 
 .formacao_links{
     font-size: 11px;
-    width: 150px;
+    width: 140px;
 }
 
 .formacao_lista_python{
