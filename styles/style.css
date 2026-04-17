@@ -58,6 +58,7 @@ body{
   font-weight: 600;
   color: var(--cor04);
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .cabecalho_menu_link_destaque{
@@ -210,10 +211,10 @@ footer{
 
 @media (max-width: 768px) {
 
-  .cabecalho_menu{
-    gap: 25px;
-    margin-bottom: 0px;
+  .cabecalho{
+    gap: 20px;
   }
+
 .cabecalho_menu_link,.cabecalho_menu_link_destaque{
   font-size: 22px;
 }
