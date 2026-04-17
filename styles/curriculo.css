@@ -484,8 +484,11 @@ transform: translateY(-5px);
 
 .formacao_front-end{
     height: 770px;
+    
 }
-
+.formacao_lista_html{
+    gap: 30px;
+}
 .formacao_item_html{
   width: 250px;
 }
@@ -496,6 +499,9 @@ transform: translateY(-5px);
 .formacao_back-end{
 
   height: 350px;
+}
+.formacao_item_python{
+    width: 250px;
 }
 }
 /* ================================================= */
@@ -539,11 +545,11 @@ body{
     background-image: none;
 }
 .formacao_item_html{
-    width: 200px;
+    width: 170px;
 }
 
-.formacao_lista_python{
-  width: 500px;
+.formacao_item_python{
+    width: 170px;
 }
 
 .imagem_link_python{
