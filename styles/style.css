@@ -250,7 +250,6 @@ footer{
 
 @media (max-width: 425px) {
 .cabecalho_menu{
-  
 gap: 20px;
 }
 
@@ -263,12 +262,10 @@ gap: 20px;
   }
 
 .apresentacao{
-
   flex-direction: column-reverse;
 }
 
 .apresentacao_imagem{
-
   width: 30%;
 }
 
@@ -281,11 +278,9 @@ gap: 20px;
 @media (max-width: 375px) {
 
   .apresentacao{
-    gap: 0px;
+    gap: 10px;
   }
-  .apresentacao_imagem{
-    margin-bottom: 0px;
-  }
+
 }
 
 @media (max-width: 320px) {
