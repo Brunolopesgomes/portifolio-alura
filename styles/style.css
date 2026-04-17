@@ -220,6 +220,7 @@ footer{
 
 .apresentacao{
   gap: 0px;
+  flex-direction: column-reverse;
 }
 .apresentacao_conteudo{
   width: 60%;
