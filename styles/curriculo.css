@@ -351,6 +351,7 @@ width: 20%;
    display: flex;
    justify-content: center;
    align-items: center;
+   gap: 20px;
     
 }
 .formacao_lista_python{
