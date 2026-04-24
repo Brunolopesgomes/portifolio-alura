@@ -219,7 +219,7 @@ width: 20%;
   width: 23%;
 }
 
-.imagem_link_excel{
+.imagem_link_excel,.imagem_link_git{
   width: 23%;
 }
 
@@ -265,6 +265,17 @@ width: 20%;
     align-items: center;
     flex-direction: column;
     height: 500px;
+}
+.formacao_git{
+    width: 100dvw;
+    background-image: url(../imagens/background/outros.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
 }
 
 .formacao_js_titulo{
@@ -375,7 +386,22 @@ width: 20%;
     margin-top: 2%;
 }
 
-
+.formacao_git_titulo{
+     font-family: var(--fonte02);
+    text-align: center;
+    font-size: 30px;
+    padding: 2px 0px;
+    background: linear-gradient(
+        to left,
+        black,
+        white,white,
+        black
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
 /* LISTAS */
 .formacao_lista_html{
     display: grid;
@@ -397,7 +423,7 @@ align-items: center;
 gap: 50px;
 
 }
-.formacao_lista_excel{
+.formacao_lista_excel,.formacao_lista_git{
 display: flex;
 justify-content: center;
 gap: 50px;
@@ -451,9 +477,28 @@ gap: 50px;
   gap: 10px;
 }
 
+.formacao_item_git{
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  background: 
+    linear-gradient(#14171C, #14171C) padding-box,
+    linear-gradient(45deg,black,black,white,white) border-box;
+  width: 100%;
+  height: 160px;
+}
 .formacao_item_excel:hover{
   transform: translateY(-5px);
     box-shadow: 0 15px 40px greenyellow;
+    
+}
+.formacao_item_git:hover{
+  transform: translateY(-5px);
+    box-shadow: 0 15px 40px white;
     
 }
 
@@ -568,7 +613,7 @@ transform: translateY(-5px);
 .formacao_links{
     font-size: 12px;
 }
-.formacao_item_python,.formacao_item_js{
+.formacao_item_python,.formacao_item_js,.formacao_item_git{
     width:300px;
   gap: 15px;
 }
@@ -586,16 +631,11 @@ transform: translateY(-5px);
     grid-template-columns: repeat(2,1fr);
   height: 430px;
 }
-.formacao_item_html,.formacao_item_excel{
+.formacao_item_html,.formacao_item_excel,.formacao_item_js,.formacao_item_python,.formacao_item_git{
   width: 250px;
 }
-.formacao_item_python{
-  width: 300px;
-}
-.formacao_item_js{
-width: 300px;
 
-}
+
 }
 /* ================================================= */
 /* 1024px (desktop) */
@@ -675,7 +715,7 @@ body{
    gap: 20px;
 }
 
-.formacao_back-end,.formacao_excel,.formacao_js{
+.formacao_back-end,.formacao_excel,.formacao_js,.formacao_git{
     background-image: none;
 }
 
@@ -767,8 +807,12 @@ body{
 
 }
 
-.formacao_item_python,.formacao_item_excel,.formacao_item_js{
+.formacao_item_python,.formacao_item_excel,.formacao_item_js,.formacao_git{
   width: 170px;
+}
+
+.formacao_git_titulo{
+    font-size: 25px;
 }
 }
 /* ================================================= */
@@ -784,7 +828,7 @@ body{
     font-size: 20px;
 }
 
-.formacao_item_html,.formacao_item_js,.formacao_item_python,.formacao_item_excel{
+.formacao_item_html,.formacao_item_js,.formacao_item_python,.formacao_item_excel,.formacao_item_git{
     width: 140px;
 }
 
