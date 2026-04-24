@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio! 🚀
 Aqui você pode conhecer meus projetos, habilidades e experiências na área de Tecnologia da Informação.
 
 ## 🌐 Acesse meu portfólio
-👉 https://brunolopesgomes.github.io/portifolio-alura/curriculo.html
+👉 https://brunolopesgomes.github.io/portifolio-alura/
 
 ## 🧠 Sobre mim
 Sou estudante de TI, com foco em desenvolvimento e aprendizado contínuo.  
