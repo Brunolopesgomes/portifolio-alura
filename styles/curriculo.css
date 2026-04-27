@@ -45,15 +45,13 @@
 /* ================================================= */
 
 body{
-    background-image: url(../imagens/background/fundo_tech.jpg);
-    background-size:cover;
-    background-repeat: repeat;
+   background-color: #1d004d;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
      overflow-x: hidden;
-     margin: 0;
+     margin: 0px;
 }
 span{
     color: var(--cor05);
@@ -276,6 +274,7 @@ width: 20%;
     align-items: center;
     flex-direction: column;
     height: 400px;
+    margin-bottom: -70px;
 }
 
 .formacao_js_titulo{
@@ -482,7 +481,6 @@ gap: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
   border: 2px solid transparent;
   border-radius: 16px;
   background: 
@@ -535,19 +533,18 @@ transform: translateY(-5px);
 
 .rodape{
     display: flex;
-    height:50px;
+    height:100px;
     justify-content: center;
     align-items: center;
-    width: auto;
     font-family: var(--fonte01);
-    font-size: 1rem;
+    font-size: 15px;
+    color: var(--cor04);
     background-image:linear-gradient(
         to right,
         rgba(0, 0, 0, 0.705),
         #0a336168,
         rgba(0, 0, 0, 0.705)
     );
-    color: var(--cor05);
 }
 
 /* ================================================= */
@@ -848,20 +845,16 @@ body{
 .formacao_js{
     margin-top: 50px; /* cria espaço acima da lista */
 }
-
 .formacao_html_css{
     height: 800px;
 }
-
 .imagem_link_html{
     width: 50px;
 }
-
 .formacao_links{
     font-size: 9px;
     width: 130px;
 }
-
 .formacao_lista_python{
     gap: 10px;
 }
