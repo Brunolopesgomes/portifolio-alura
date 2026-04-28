@@ -263,6 +263,13 @@ font-size: 22px;
   white-space: nowrap;
   font-size: 14px;
 }
+.projeto_parte01{
+  gap: 15px;
+}
+
+.projeto_texto{
+  width: 300px;
+}
 }
 
 @media screen and (max-width:425px){
@@ -290,10 +297,9 @@ font-size: 13px;
   font-size: 20px;
   text-align: center;
 }
-
-.apresentacao_projetos{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+.projeto_texto{
+  width: 200px;
+  font-size: 12px;
 }
 }
 @media screen and (max-width:375px){
